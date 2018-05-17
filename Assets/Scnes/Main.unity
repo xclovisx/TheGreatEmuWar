@@ -861,9 +861,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 390143277}
+  - component: {fileID: 390143280}
   - component: {fileID: 390143278}
   - component: {fileID: 390143279}
-  - component: {fileID: 390143280}
   m_Layer: 0
   m_Name: VROrigin
   m_TagString: Untagged
@@ -924,8 +924,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10aa9884b617c7b4085ee86ce71b5697, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  y: 1
-  t: 0
   countText: {fileID: 1319610191}
 --- !u!1 &407221589
 GameObject:
