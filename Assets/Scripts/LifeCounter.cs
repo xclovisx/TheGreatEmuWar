@@ -11,7 +11,7 @@ public class LifeCounter : MonoBehaviour
 
     public int count;
     public bool spawn;
-
+    
     void Start()
     {
         spawn = true;
@@ -42,7 +42,7 @@ public class LifeCounter : MonoBehaviour
     {
         if (count == 0)
         {
-            spawn = false;
+           // spawn = false;
         }
     }
 }
