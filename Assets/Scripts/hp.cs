@@ -19,8 +19,7 @@ public class hp : MonoBehaviour
     }
     void Update()
     {
-
-        transform.localScale = new Vector3(1, float.Parse(countText.text) / 100, 1);
+        if (float.Parse(countText.text) / 100>0) { transform.localScale = new Vector3(1, float.Parse(countText.text) / 100, 1); }
     }
 
 }

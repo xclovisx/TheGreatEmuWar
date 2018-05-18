@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class meteorSpawner : MonoBehaviour
 {
+    public Text countText;
+
     [Header("Prefab")]
     public GameObject meteorPrefab;
 
@@ -26,7 +29,6 @@ public class meteorSpawner : MonoBehaviour
     public int speed;
 
     private bool stopSpawn;
-
     void Start()
     {
         InvokeRepeating("Spawn", spawnTime, spawnTime);
@@ -34,9 +36,9 @@ public class meteorSpawner : MonoBehaviour
 
     void Spawn()
     {
-        LifeCounter mc = GetComponent<LifeCounter>();
+       // LifeCounter mc = GetComponent<LifeCounter>(); GameObject.Find("screenSpawn").GetComponent<LifeCounter>().spawn ||
 
-        if (GameObject.Find("screenSpawn").GetComponent<LifeCounter> ().spawn) //will check if true
+        if (float.Parse(countText.text) / 100 != 0) //will check if true
         {
             Vector3 SpawnPosition = new Vector3(Random.Range(xMin, xMax), Random.Range(yMin, yMax), Random.Range(zMin, zMax));
             GameObject meteor = Instantiate(meteorPrefab, SpawnPosition, Quaternion.identity);
@@ -49,6 +51,6 @@ public class meteorSpawner : MonoBehaviour
 
 
     void Update()
-    { }
+    {  }
 
 }

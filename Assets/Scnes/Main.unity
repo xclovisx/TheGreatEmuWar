@@ -226,7 +226,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 46329714}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca9ffdf1ebbb3ae41961741a8561467d, type: 3}
   m_Name: 
@@ -891,7 +891,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 390143276}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca9ffdf1ebbb3ae41961741a8561467d, type: 3}
   m_Name: 
@@ -925,6 +925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countText: {fileID: 1319610191}
+  spawn: 0
 --- !u!1 &407221589
 GameObject:
   m_ObjectHideFlags: 0
@@ -2576,6 +2577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5956ceee96796f64faf1ba9502588fad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  countText: {fileID: 1319610191}
   meteorPrefab: {fileID: 1649911067848636, guid: effa47a7bc34205438428994d66a1288,
     type: 2}
   spawnTime: 1

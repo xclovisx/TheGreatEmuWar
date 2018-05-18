@@ -8,26 +8,34 @@ public class Health : MonoBehaviour
   
     public Text countText;
     private int count;
+    public bool spawn;
 
-    private void Start()
+    void Start()
     {
+        spawn = true;
         count = 100;
         countText.text = count.ToString();
         
     }
 
-    void Update()
-    {
-    }
+   
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Meteor")
         {
-            count--;
+            if (count>0) {count--;}
+            
             
         }
         countText.text = count.ToString();
 
     }
- }
+    private void Update()
+    {
+        if (count == 0)
+        {
+            // spawn = false;
+        }
+    }
+}
 
