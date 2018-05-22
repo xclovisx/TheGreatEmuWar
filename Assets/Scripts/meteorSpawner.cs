@@ -38,7 +38,7 @@ public class meteorSpawner : MonoBehaviour
     {
        // LifeCounter mc = GetComponent<LifeCounter>(); GameObject.Find("screenSpawn").GetComponent<LifeCounter>().spawn ||
 
-        if (float.Parse(countText.text) / 100 != 0) //will check if true
+        if (float.Parse(countText.text) / 100 != 0|| GameObject.Find("VROrigin").GetComponent<Health>().spawn) //will check if true
         {
             Vector3 SpawnPosition = new Vector3(Random.Range(xMin, xMax), Random.Range(yMin, yMax), Random.Range(zMin, zMax));
             GameObject meteor = Instantiate(meteorPrefab, SpawnPosition, Quaternion.identity);

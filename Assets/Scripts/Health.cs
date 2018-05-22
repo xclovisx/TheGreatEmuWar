@@ -34,7 +34,7 @@ public class Health : MonoBehaviour
     {
         if (count == 0)
         {
-            // spawn = false;
+             spawn = false;
         }
     }
 }
