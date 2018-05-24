@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Meteor
   - Bullet
+  - screenSpawn
+  - EBullet
   layers:
   - Default
   - TransparentFX
