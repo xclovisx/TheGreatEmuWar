@@ -51,9 +51,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4846319081283402}
-  - component: {fileID: 95179183546960618}
   - component: {fileID: 114123323666989156}
   - component: {fileID: 135712095883129088}
+  - component: {fileID: 114681931202740010}
   - component: {fileID: 114413509856664598}
   - component: {fileID: 54964184924796880}
   - component: {fileID: 33279480900311586}
@@ -424,24 +424,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!95 &95179183546960618
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1353672627506998}
-  m_Enabled: 0
-  m_Avatar: {fileID: 9000000, guid: cc8113c6612951849b3c931f94ec533d, type: 3}
-  m_Controller: {fileID: 9100000, guid: 43d3a07eea2405040a0cf63d0626ca0f, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114114020025325288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -510,6 +492,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   speed: 1
+--- !u!114 &114681931202740010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1353672627506998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c34aee19eeec2e43ae18d19e02ac3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135712095883129088
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -517,7 +510,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1353672627506998}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 1.69

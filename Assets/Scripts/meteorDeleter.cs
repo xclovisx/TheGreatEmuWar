@@ -7,9 +7,12 @@ public class meteorDeleter : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        /*if (other.tag == "Player" || other.tag == "Bullet")
-        {*/
+        if (other.tag == "AI Shield" || other.tag == "EBullet")
+        {
+        }
+        else
+        {
             Destroy(gameObject);
-        //}
+        }
     }
 }
