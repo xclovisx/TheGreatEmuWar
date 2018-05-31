@@ -11,9 +11,6 @@ public class hp : MonoBehaviour
 
     private void Start()
     {
-       
-  
-        
         transform.localScale = new Vector3(1, float.Parse(countText.text) / 100, 1);
 
     }
