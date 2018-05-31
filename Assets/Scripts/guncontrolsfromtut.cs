@@ -3,6 +3,15 @@ using System.Collections;
 
 public class guncontrolsfromtut : MonoBehaviour
 {
+    private Valve.VR.EVRButtonId gripButton = Valve.VR.EVRButtonId.k_EButton_Grip;
+    private Valve.VR.EVRButtonId triggerButton = Valve.VR.EVRButtonId.k_EButton_SteamVR_Trigger;
+
+    private SteamVR_Controller.Device controller { get { return SteamVR_Controller.Input((int)trackedObj.index); } }
+    private SteamVR_TrackedObject trackedObj;
+
+    public float fireRate;
+    private float nextFire;
+
     public GameObject Bullet_Emitter;
 
     public GameObject Bullet;
@@ -11,18 +20,21 @@ public class guncontrolsfromtut : MonoBehaviour
 
     void Start()
     {
+        trackedObj = GetComponent<SteamVR_TrackedObject>();
+
     }
+
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (controller.GetPressDown(triggerButton)&& Time.time > nextFire) 
         {
+            nextFire = Time.time + fireRate;
+            Debug.Log("Pressed");
             //The Bullet instantiation happens here.
             GameObject Temporary_Bullet_Handler;
-            Temporary_Bullet_Handler = Instantiate(Bullet, Bullet_Emitter.transform.position + new Vector3(0.0f, 1.0f, 0.0f), Bullet_Emitter.transform.rotation) as GameObject;
+            Temporary_Bullet_Handler = Instantiate(Bullet, Bullet_Emitter.transform.position + new Vector3(-0.2f, 0.0f, 0.018f), Bullet_Emitter.transform.rotation) as GameObject;
 
-            Temporary_Bullet_Handler.transform.Rotate(Vector3.forward * 110);
-            Temporary_Bullet_Handler.transform.Rotate(Vector3.right * 00);
-            Temporary_Bullet_Handler.transform.Rotate(Vector3.up * 00);
+            Temporary_Bullet_Handler.transform.Rotate(Vector3.forward * 100);
 
             Rigidbody Temporary_RigidBody;
             Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody>();
@@ -30,6 +42,7 @@ public class guncontrolsfromtut : MonoBehaviour
             Temporary_RigidBody.AddForce(transform.up * Bullet_Up_Force);
 
             Destroy(Temporary_Bullet_Handler, 2.0f);
+
         }
     }
 }
