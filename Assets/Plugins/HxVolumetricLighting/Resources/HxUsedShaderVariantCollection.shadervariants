@@ -26,7 +26,7 @@ ShaderVariantCollection:
         passType: 0
       - keywords: SHADOWS_OFF UNITY_SINGLE_PASS_STEREO
         passType: 0
---- !u!21 &21095793938262248
+--- !u!21 &21373131813511944
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -46,7 +46,7 @@ Material:
     m_TexEnvs: []
     m_Floats: []
     m_Colors: []
---- !u!21 &21649879254658220
+--- !u!21 &21427623294138610
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -66,27 +66,7 @@ Material:
     m_TexEnvs: []
     m_Floats: []
     m_Colors: []
---- !u!21 &21685209863662502
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_Shader: {fileID: 4800000, guid: c1d9a54d81528704491362fc61968e7e, type: 3}
-  m_ShaderKeywords: SHADOWS_OFF UNITY_SINGLE_PASS_STEREO
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs: []
-    m_Floats: []
-    m_Colors: []
---- !u!21 &21855922743763378
+--- !u!21 &21437252743188650
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -106,7 +86,27 @@ Material:
     m_TexEnvs: []
     m_Floats: []
     m_Colors: []
---- !u!21 &21993015765235020
+--- !u!21 &21521854902128436
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Shader: {fileID: 4800000, guid: c1d9a54d81528704491362fc61968e7e, type: 3}
+  m_ShaderKeywords: SHADOWS_OFF UNITY_SINGLE_PASS_STEREO
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats: []
+    m_Colors: []
+--- !u!21 &21544595062100880
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
