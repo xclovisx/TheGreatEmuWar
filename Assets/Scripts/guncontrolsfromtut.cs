@@ -26,7 +26,7 @@ public class guncontrolsfromtut : MonoBehaviour
 
     void Update()
     {
-        if (controller.GetPressDown(triggerButton)&& Time.time > nextFire) 
+        if (controller.GetPressDown(triggerButton)&& Time.time > nextFire|| Input.GetKeyDown("space")) 
         {
             nextFire = Time.time + fireRate;
             Debug.Log("Pressed");

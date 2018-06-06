@@ -23,7 +23,7 @@ public class Health : MonoBehaviour
     {
         if (other.tag == "Meteor")
         {
-            if (count>0) {count--;}
+            if (count>0) {count-=10;}
             
             
         }
