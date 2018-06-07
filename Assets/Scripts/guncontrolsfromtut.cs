@@ -21,17 +21,18 @@ public class guncontrolsfromtut : MonoBehaviour
     void Start()
     {
         trackedObj = GetComponent<SteamVR_TrackedObject>();
+
     }
 
     void Update()
     {
-        if (controller.GetPressDown(triggerButton)&& Time.time > nextFire) 
+        if (controller.GetPressDown(triggerButton) && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
             Debug.Log("Pressed");
             //The Bullet instantiation happens here.
             GameObject Temporary_Bullet_Handler;
-            Temporary_Bullet_Handler = Instantiate(Bullet, Bullet_Emitter.transform.position + new Vector3(-0.2f, 0.0f, 0.018f), Bullet_Emitter.transform.rotation) as GameObject;
+            Temporary_Bullet_Handler = Instantiate(Bullet, Bullet_Emitter.transform.position + new Vector3(0.0f, 0.0f, 0.0f), Bullet_Emitter.transform.rotation) as GameObject;
 
             Temporary_Bullet_Handler.transform.Rotate(Vector3.forward * 90);
             Temporary_Bullet_Handler.transform.Rotate(Vector3.right * -90);
