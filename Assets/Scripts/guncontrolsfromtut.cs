@@ -36,6 +36,7 @@ public class guncontrolsfromtut : MonoBehaviour
 
             Temporary_Bullet_Handler.transform.Rotate(Vector3.forward * 90);
             Temporary_Bullet_Handler.transform.Rotate(Vector3.right * -90);
+            Temporary_Bullet_Handler.transform.Rotate(Vector3.up * -90);
 
             Rigidbody Temporary_RigidBody;
             Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody>();
