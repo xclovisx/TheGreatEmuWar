@@ -40,7 +40,7 @@ public class guncontrolsfromtut : MonoBehaviour
             Rigidbody Temporary_RigidBody;
             Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody>();
 
-            Temporary_RigidBody.AddForce(transform.up * Bullet_Up_Force);
+            //Temporary_RigidBody.AddForce(transform.forward * Bullet_Up_Force);
 
             Destroy(Temporary_Bullet_Handler, 5.0f);
 
