@@ -6,11 +6,9 @@ using UnityEngine.UI;
 
 public class meteorDeleter : MonoBehaviour
 {
-    public int count = 0;
-    private int points;
     private void Start()
     {
-        count = 0;
+        
     }
 
     void spawn()
@@ -21,14 +19,19 @@ public class meteorDeleter : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "AI Shield" || other.tag == "EBullet")
-        {
+        {   
+                
 
-        }
+        }/*
+       if (other.tag == "EBullet")
+        { if (counter.hpCounter > 0) { counter.hpCounter -= 1; } }*/
+     
         else
         {
             Destroy(gameObject);
-            counter ct = GetComponent<counter>();
-            ct.points += 100;
+            // Destroy(gameObject);
+            // counter ct = GetComponent<counter>();
+            // ct.points += 100;
         }
 
 

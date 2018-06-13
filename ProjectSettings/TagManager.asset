@@ -9,6 +9,7 @@ TagManager:
   - screenSpawn
   - EBullet
   - AI Shield
+  - hp
   layers:
   - Default
   - TransparentFX

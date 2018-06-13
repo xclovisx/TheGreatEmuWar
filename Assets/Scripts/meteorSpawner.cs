@@ -34,7 +34,8 @@ public class meteorSpawner : MonoBehaviour
 
     void Spawn()
     {
-        if (GameObject.Find("screenSpawn").GetComponent<Health> ().spawn) //will check if true
+        
+        if (counter.spawn) //will check if true
         {
             Vector3 SpawnPosition = new Vector3(Random.Range(xMin, xMax), Random.Range(yMin, yMax), Random.Range(zMin, zMax));
             GameObject meteor = Instantiate(meteorPrefab, SpawnPosition, Quaternion.identity);
@@ -42,6 +43,8 @@ public class meteorSpawner : MonoBehaviour
             meteorMovement mv = meteor.GetComponent<meteorMovement>();
             mv.target = GameObject.FindWithTag("Player").transform;
             mv.speed = speed;
+            
+
         }
     }
 
