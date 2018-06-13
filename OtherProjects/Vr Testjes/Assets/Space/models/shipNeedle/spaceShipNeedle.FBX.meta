@@ -1,0 +1,626 @@
+fileFormatVersion: 2
+guid: 1d6a689b8b69cfe429f843dccbc3aa10
+timeCreated: 1476952133
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: backDoor
+    100002: Cylinder003
+    100004: Cylinder005
+    100006: Cylinder006
+    100008: glass
+    100010: hull_low
+    100012: intr
+    100014: Object001
+    100016: Object002
+    100018: //RootNode
+    100020: Box002
+    100022: Bone001
+    100024: Bone002
+    100026: Bone003
+    100028: Bone004
+    100030: Bone005
+    100032: Bone006
+    100034: Bone007
+    100036: Bone009
+    100038: Bone010
+    100040: Bone011
+    100042: Bone012
+    100044: foot
+    100046: foot001
+    100048: foot002
+    100050: IK Chain001
+    100052: IK Chain002
+    100054: IK Chain003
+    100056: leg003
+    100058: leg004
+    100060: leg005
+    100062: leg006
+    100064: leg1
+    100066: leg2
+    100068: Object006
+    100070: Bone008
+    100072: Bone013
+    100074: Bone014
+    100076: Bone015
+    100078: Bone016
+    100080: Dummy007
+    100082: IK Chain004
+    100084: Cylinder003 1
+    100086: Cylinder005 1
+    100088: Cylinder006 1
+    100090: Dummy006
+    100092: Object001 1
+    100094: Object009
+    100096: Line003
+    100098: Dummy003
+    100100: Bone017
+    100102: Bone018
+    100104: Bone019
+    100106: Bone020
+    100108: Cylinder007
+    100110: Cylinder008
+    100112: Cylinder009
+    100114: Dummy008
+    100116: IK Chain005
+    100118: Line002
+    100120: Object007
+    100122: Plane001
+    100124: Plane003
+    100126: Plane005
+    100128: Plane006
+    100130: Plane011
+    100132: Plane012
+    100134: Plane014
+    100136: Plane015
+    100138: Plane018
+    100140: Plane019
+    100142: Plane020
+    100144: Plane023
+    100146: Plane024
+    100148: Plane025
+    100150: Plane026
+    100152: decals
+    100154: Dummy001
+    400000: backDoor
+    400002: Cylinder003
+    400004: Cylinder005
+    400006: Cylinder006
+    400008: glass
+    400010: hull_low
+    400012: intr
+    400014: Object001
+    400016: Object002
+    400018: //RootNode
+    400020: Box002
+    400022: Bone001
+    400024: Bone002
+    400026: Bone003
+    400028: Bone004
+    400030: Bone005
+    400032: Bone006
+    400034: Bone007
+    400036: Bone009
+    400038: Bone010
+    400040: Bone011
+    400042: Bone012
+    400044: foot
+    400046: foot001
+    400048: foot002
+    400050: IK Chain001
+    400052: IK Chain002
+    400054: IK Chain003
+    400056: leg003
+    400058: leg004
+    400060: leg005
+    400062: leg006
+    400064: leg1
+    400066: leg2
+    400068: Object006
+    400070: Bone008
+    400072: Bone013
+    400074: Bone014
+    400076: Bone015
+    400078: Bone016
+    400080: Dummy007
+    400082: IK Chain004
+    400084: Cylinder003 1
+    400086: Cylinder005 1
+    400088: Cylinder006 1
+    400090: Dummy006
+    400092: Object001 1
+    400094: Object009
+    400096: Line003
+    400098: Dummy003
+    400100: Bone017
+    400102: Bone018
+    400104: Bone019
+    400106: Bone020
+    400108: Cylinder007
+    400110: Cylinder008
+    400112: Cylinder009
+    400114: Dummy008
+    400116: IK Chain005
+    400118: Line002
+    400120: Object007
+    400122: Plane001
+    400124: Plane003
+    400126: Plane005
+    400128: Plane006
+    400130: Plane011
+    400132: Plane012
+    400134: Plane014
+    400136: Plane015
+    400138: Plane018
+    400140: Plane019
+    400142: Plane020
+    400144: Plane023
+    400146: Plane024
+    400148: Plane025
+    400150: Plane026
+    400152: decals
+    400154: Dummy001
+    2300000: backDoor
+    2300002: Cylinder003
+    2300004: Cylinder005
+    2300006: Cylinder006
+    2300008: glass
+    2300010: hull_low
+    2300012: intr
+    2300014: Object001
+    2300016: Object002
+    2300018: foot
+    2300020: foot001
+    2300022: foot002
+    2300024: leg003
+    2300026: leg004
+    2300028: leg005
+    2300030: leg006
+    2300032: leg1
+    2300034: leg2
+    2300036: Object006
+    2300038: Cylinder003 1
+    2300040: Cylinder005 1
+    2300042: Cylinder006 1
+    2300044: Object001 1
+    2300046: Object009
+    2300048: Line003
+    2300050: Cylinder007
+    2300052: Cylinder008
+    2300054: Cylinder009
+    2300056: Line002
+    2300058: Object007
+    2300060: Plane001
+    2300062: Plane003
+    2300064: Plane005
+    2300066: Plane006
+    2300068: Plane011
+    2300070: Plane012
+    2300072: Plane014
+    2300074: Plane015
+    2300076: Plane018
+    2300078: Plane019
+    2300080: Plane020
+    2300082: Plane023
+    2300084: Plane024
+    2300086: Plane025
+    2300088: Plane026
+    2300090: decals
+    3300000: backDoor
+    3300002: Cylinder003
+    3300004: Cylinder005
+    3300006: Cylinder006
+    3300008: glass
+    3300010: hull_low
+    3300012: intr
+    3300014: Object001
+    3300016: Object002
+    3300018: foot
+    3300020: foot001
+    3300022: foot002
+    3300024: leg003
+    3300026: leg004
+    3300028: leg005
+    3300030: leg006
+    3300032: leg1
+    3300034: leg2
+    3300036: Object006
+    3300038: Cylinder003 1
+    3300040: Cylinder005 1
+    3300042: Cylinder006 1
+    3300044: Object001 1
+    3300046: Object009
+    3300048: Line003
+    3300050: Cylinder007
+    3300052: Cylinder008
+    3300054: Cylinder009
+    3300056: Line002
+    3300058: Object007
+    3300060: Plane001
+    3300062: Plane003
+    3300064: Plane005
+    3300066: Plane006
+    3300068: Plane011
+    3300070: Plane012
+    3300072: Plane014
+    3300074: Plane015
+    3300076: Plane018
+    3300078: Plane019
+    3300080: Plane020
+    3300082: Plane023
+    3300084: Plane024
+    3300086: Plane025
+    3300088: Plane026
+    3300090: decals
+    4300000: hull_low
+    4300002: backDoor
+    4300004: glass
+    4300006: intr
+    4300008: Object001
+    4300010: Object002
+    4300012: Cylinder003
+    4300014: Cylinder005
+    4300016: Cylinder006
+    4300018: Object006
+    4300020: foot
+    4300022: leg2
+    4300024: leg1
+    4300026: leg003
+    4300028: foot001
+    4300030: leg004
+    4300032: leg005
+    4300034: foot002
+    4300036: leg006
+    4300038: Cylinder006
+    4300040: Cylinder005
+    4300042: Cylinder003
+    4300044: Object009
+    4300046: Line003
+    4300048: Object007
+    4300050: Line002
+    4300052: Cylinder007
+    4300054: Cylinder008
+    4300056: Cylinder009
+    4300058: Plane001
+    4300060: Plane003
+    4300062: Plane005
+    4300064: Plane006
+    4300066: Plane011
+    4300068: Plane012
+    4300070: Plane014
+    4300072: Plane015
+    4300074: Plane018
+    4300076: Plane019
+    4300078: Plane020
+    4300080: Plane023
+    4300082: Plane024
+    4300084: Plane025
+    4300086: Plane026
+    4300088: decals
+    7400000: needleLanding
+    7400002: needleIdle
+    7400004: needleDeparture
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: needleLanding
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: decals
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: hull_low
+        weight: 1
+      - path: hull_low/Bone001
+        weight: 1
+      - path: hull_low/Bone001/Bone002
+        weight: 1
+      - path: hull_low/Bone001/Bone002/Bone003
+        weight: 1
+      - path: hull_low/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: hull_low/Bone001/Bone002/Bone003/foot
+        weight: 1
+      - path: hull_low/Bone001/Bone002/leg2
+        weight: 1
+      - path: hull_low/Bone001/leg1
+        weight: 1
+      - path: hull_low/Bone007
+        weight: 1
+      - path: hull_low/Bone007/Bone005
+        weight: 1
+      - path: hull_low/Bone007/Bone005/Bone006
+        weight: 1
+      - path: hull_low/Bone007/Bone005/Bone006/Bone008
+        weight: 1
+      - path: hull_low/Bone007/Bone005/Bone006/foot001
+        weight: 1
+      - path: hull_low/Bone007/Bone005/leg003
+        weight: 1
+      - path: hull_low/Bone007/leg004
+        weight: 1
+      - path: hull_low/Bone011
+        weight: 1
+      - path: hull_low/Bone011/Bone009
+        weight: 1
+      - path: hull_low/Bone011/Bone009/Bone010
+        weight: 1
+      - path: hull_low/Bone011/Bone009/Bone010/Bone012
+        weight: 1
+      - path: hull_low/Bone011/Bone009/Bone010/foot002
+        weight: 1
+      - path: hull_low/Bone011/Bone009/leg005
+        weight: 1
+      - path: hull_low/Bone011/leg006
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: intr
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: needleIdle
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: decals
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: hull_low
+        weight: 1
+      - path: hull_low/Bone001
+        weight: 1
+      - path: hull_low/Bone001/Bone002
+        weight: 1
+      - path: hull_low/Bone001/Bone002/Bone003
+        weight: 1
+      - path: hull_low/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: hull_low/Bone001/Bone002/Bone003/foot
+        weight: 1
+      - path: hull_low/Bone001/Bone002/leg2
+        weight: 1
+      - path: hull_low/Bone001/leg1
+        weight: 1
+      - path: hull_low/Bone007
+        weight: 1
+      - path: hull_low/Bone007/Bone005
+        weight: 1
+      - path: hull_low/Bone007/Bone005/Bone006
+        weight: 1
+      - path: hull_low/Bone007/Bone005/Bone006/Bone008
+        weight: 1
+      - path: hull_low/Bone007/Bone005/Bone006/foot001
+        weight: 1
+      - path: hull_low/Bone007/Bone005/leg003
+        weight: 1
+      - path: hull_low/Bone007/leg004
+        weight: 1
+      - path: hull_low/Bone011
+        weight: 1
+      - path: hull_low/Bone011/Bone009
+        weight: 1
+      - path: hull_low/Bone011/Bone009/Bone010
+        weight: 1
+      - path: hull_low/Bone011/Bone009/Bone010/Bone012
+        weight: 1
+      - path: hull_low/Bone011/Bone009/Bone010/foot002
+        weight: 1
+      - path: hull_low/Bone011/Bone009/leg005
+        weight: 1
+      - path: hull_low/Bone011/leg006
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: intr
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: needleDeparture
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: decals
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: hull_low
+        weight: 1
+      - path: hull_low/Bone001
+        weight: 1
+      - path: hull_low/Bone001/Bone002
+        weight: 1
+      - path: hull_low/Bone001/Bone002/Bone003
+        weight: 1
+      - path: hull_low/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: hull_low/Bone001/Bone002/Bone003/foot
+        weight: 1
+      - path: hull_low/Bone001/Bone002/leg2
+        weight: 1
+      - path: hull_low/Bone001/leg1
+        weight: 1
+      - path: hull_low/Bone007
+        weight: 1
+      - path: hull_low/Bone007/Bone005
+        weight: 1
+      - path: hull_low/Bone007/Bone005/Bone006
+        weight: 1
+      - path: hull_low/Bone007/Bone005/Bone006/Bone008
+        weight: 1
+      - path: hull_low/Bone007/Bone005/Bone006/foot001
+        weight: 1
+      - path: hull_low/Bone007/Bone005/leg003
+        weight: 1
+      - path: hull_low/Bone007/leg004
+        weight: 1
+      - path: hull_low/Bone011
+        weight: 1
+      - path: hull_low/Bone011/Bone009
+        weight: 1
+      - path: hull_low/Bone011/Bone009/Bone010
+        weight: 1
+      - path: hull_low/Bone011/Bone009/Bone010/Bone012
+        weight: 1
+      - path: hull_low/Bone011/Bone009/Bone010/foot002
+        weight: 1
+      - path: hull_low/Bone011/Bone009/leg005
+        weight: 1
+      - path: hull_low/Bone011/leg006
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: intr
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

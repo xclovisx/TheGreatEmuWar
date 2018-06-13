@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MfxTwoAlbedoWorldInvert_ModifyTargetObject
+  m_Shader: {fileID: 4800000, guid: 6ee2771254de1bc41bf1c63da530b5a2, type: 3}
+  m_ShaderKeywords: _DIRECTION_ON _EMISSION _INVERT_ON _POSITIONTYPE_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Albedo:
+        m_Texture: {fileID: 2800000, guid: c01fa92039faa084987c37588b7a59ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - BurntTileNormals:
+        m_Texture: {fileID: 2800000, guid: e24b2c680edaa90458d31f11544d79ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Masks:
+        m_Texture: {fileID: 2800000, guid: e9742c575b8f4644fb9379e7347ff62e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Normals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AfterBurnEmissionTexture:
+        m_Texture: {fileID: 2800000, guid: 324e028e688c4324fa336048d9faf3c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AfterBurnTexture:
+        m_Texture: {fileID: 2800000, guid: df645ca93f6d2cf49bb80e914afd3d87, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoAfterBurnTexture:
+        m_Texture: {fileID: 2800000, guid: 36be8d528a4fa024faa4680d7658642c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoDissolveTexture:
+        m_Texture: {fileID: 2800000, guid: 71a671b61e06095418fc333fe0854932, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurnAnimationOffset:
+        m_Texture: {fileID: 2800000, guid: 5f4153e8858407a4997b2b5b3cf502fa, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _BurnBorderTexture:
+        m_Texture: {fileID: 2800000, guid: 61c0b9c0523734e0e91bc6043c72a490, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurnMask:
+        m_Texture: {fileID: 2800000, guid: 36be8d528a4fa024faa4680d7658642c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurnTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurntEmissionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurntNormals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurntTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _BurntTileNormals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTexture:
+        m_Texture: {fileID: 2800000, guid: 0bebe40e9ebbecc48b8e9cfea982da7e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTextureUV:
+        m_Texture: {fileID: 2800000, guid: 117ceecb2a354934eb2f5d795dc77100, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FireTexture:
+        m_Texture: {fileID: 2800000, guid: f7e96904e8667e1439548f0f86389447, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7555ebe7617648240be8ce503f30a320, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masks:
+        m_Texture: {fileID: 2800000, guid: e24b2c680edaa90458d31f11544d79ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 7af00b3bb4d171c4c8984cae6160a9c8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - BaseEmber: 0
+    - GlowBaseFrequency: 5
+    - GlowColorIntensity: 3.2
+    - GlowEmissionMultiplier: 1.3
+    - GlowOverride: 0
+    - _AlbedoMix: 0
+    - _BaseEmber: 0
+    - _BumpScale: 1
+    - _BurnEmissionDistribution: 1
+    - _BurnOffset: 3.75
+    - _BurnPosition: 0.48
+    - _BurnSize: 2.86
+    - _BurnSpeed: 0.48
+    - _BurnTilling: 0.1
+    - _CharcoalMix: 0
+    - _CharcoalNormalTile: 5
+    - _Cutoff: 0.14
+    - _DetailNormalMapScale: 1
+    - _Direction: 1
+    - _Dissolve: 1
+    - _DissolveAmount: 0.149
+    - _DissolveDistance: 0.336
+    - _DissolveDistribution: 0.318
+    - _DissolveEmissionSize: 0.424
+    - _DissolveTiling: 1
+    - _DstBlend: 0
+    - _Float0: 0.515
+    - _Float1: 0
+    - _Float2: 41.97
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GlowBaseFrequency: 5
+    - _GlowOverride: 0
+    - _Invert: 1
+    - _Metallic: 0.12
+    - _Mode: 0
+    - _NormalTile: 2
+    - _NormalsMix: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Position: 1.59
+    - _PositionType: 1
+    - _SmoothnessTextureChannel: 0
+    - _Smothness: 0.35
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StartPoint: 0.43
+    - _StartPosition: 0
+    - _ToggleSwitch0: 0
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - EmberColorTint: {r: 4, g: 0.4705882, b: 0.4705882, a: 1}
+    - _AferBurnEmissive: {r: 0.8235295, g: 3.8685594, b: 4, a: 1}
+    - _AfterBurnAlbedoColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AlbedoDissolveColor: {r: 1.6764702, g: 2.4616632, b: 3.9999998, a: 1}
+    - _BurnColor: {r: 0.4311324, g: 3.086, b: 3.086, a: 1}
+    - _BurntAlbedoColor: {r: 0, g: 0, b: 0, a: 1}
+    - _BurntEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Direction: {r: 0, g: 0, b: 0, a: 0}
+    - _DirectionVector: {r: 1, g: 0, b: 0, a: 0}
+    - _DissolveColor: {r: 2, g: 0.4705882, b: 0.4705882, a: 1}
+    - _EmberColorTint: {r: 0.19999993, g: 1, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Vector0: {r: 0, g: 0.2, b: 0, a: 0}

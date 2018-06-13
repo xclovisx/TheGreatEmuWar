@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 832a9dfe3a2fb5f48aa79e378e62aca4
+timeCreated: 1487968955
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone006
+    100012: Bone007
+    100014: Bone008
+    100016: Bone009
+    100018: Bone010
+    100020: Bone011
+    100022: Bone012
+    100024: Box001
+    100026: Cylinder001
+    100028: Cylinder002
+    100030: Cylinder005
+    100032: Cylinder010
+    100034: Cylinder012
+    100036: Cylinder013
+    100038: Cylinder014
+    100040: Cylinder015
+    100042: Cylinder016
+    100044: Cylinder017
+    100046: Cylinder018
+    100048: Cylinder019
+    100050: Cylinder020
+    100052: Cylinder021
+    100054: Cylinder022
+    100056: Cylinder023
+    100058: Cylinder024
+    100060: Cylinder025
+    100062: Cylinder026
+    100064: Cylinder027
+    100066: Dummy001
+    100068: Dummy002
+    100070: Dummy003
+    100072: Dummy004
+    100074: Dummy005
+    100076: Dummy006
+    100078: Dummy007
+    100080: Dummy008
+    100082: glass
+    100084: IK Chain001
+    100086: IK Chain002
+    100088: IK Chain003
+    100090: IK Chain004
+    100092: interior_low
+    100094: Object002
+    100096: Object003
+    100098: Object007
+    100100: //RootNode
+    100102: turtleBackDoor
+    100104: turtleInDoorLeft
+    100106: turtleInDoorRight
+    100108: decals
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone006
+    400012: Bone007
+    400014: Bone008
+    400016: Bone009
+    400018: Bone010
+    400020: Bone011
+    400022: Bone012
+    400024: Box001
+    400026: Cylinder001
+    400028: Cylinder002
+    400030: Cylinder005
+    400032: Cylinder010
+    400034: Cylinder012
+    400036: Cylinder013
+    400038: Cylinder014
+    400040: Cylinder015
+    400042: Cylinder016
+    400044: Cylinder017
+    400046: Cylinder018
+    400048: Cylinder019
+    400050: Cylinder020
+    400052: Cylinder021
+    400054: Cylinder022
+    400056: Cylinder023
+    400058: Cylinder024
+    400060: Cylinder025
+    400062: Cylinder026
+    400064: Cylinder027
+    400066: Dummy001
+    400068: Dummy002
+    400070: Dummy003
+    400072: Dummy004
+    400074: Dummy005
+    400076: Dummy006
+    400078: Dummy007
+    400080: Dummy008
+    400082: glass
+    400084: IK Chain001
+    400086: IK Chain002
+    400088: IK Chain003
+    400090: IK Chain004
+    400092: interior_low
+    400094: Object002
+    400096: Object003
+    400098: Object007
+    400100: //RootNode
+    400102: turtleBackDoor
+    400104: turtleInDoorLeft
+    400106: turtleInDoorRight
+    400108: decals
+    2300000: Box001
+    2300002: Cylinder001
+    2300004: Cylinder002
+    2300006: Cylinder005
+    2300008: Cylinder010
+    2300010: Cylinder012
+    2300012: Cylinder013
+    2300014: Cylinder014
+    2300016: Cylinder015
+    2300018: Cylinder016
+    2300020: Cylinder017
+    2300022: Cylinder018
+    2300024: Cylinder019
+    2300026: Cylinder020
+    2300028: Cylinder021
+    2300030: Cylinder022
+    2300032: Cylinder023
+    2300034: Cylinder024
+    2300036: Cylinder025
+    2300038: Cylinder026
+    2300040: Cylinder027
+    2300042: glass
+    2300044: interior_low
+    2300046: Object007
+    2300048: turtleBackDoor
+    2300050: turtleInDoorLeft
+    2300052: turtleInDoorRight
+    2300054: decals
+    3300000: Box001
+    3300002: Cylinder001
+    3300004: Cylinder002
+    3300006: Cylinder005
+    3300008: Cylinder010
+    3300010: Cylinder012
+    3300012: Cylinder013
+    3300014: Cylinder014
+    3300016: Cylinder015
+    3300018: Cylinder016
+    3300020: Cylinder017
+    3300022: Cylinder018
+    3300024: Cylinder019
+    3300026: Cylinder020
+    3300028: Cylinder021
+    3300030: Cylinder022
+    3300032: Cylinder023
+    3300034: Cylinder024
+    3300036: Cylinder025
+    3300038: Cylinder026
+    3300040: Cylinder027
+    3300042: glass
+    3300044: interior_low
+    3300046: Object007
+    3300048: turtleBackDoor
+    3300050: turtleInDoorLeft
+    3300052: turtleInDoorRight
+    3300054: decals
+    4300000: Box001
+    4300002: turtleBackDoor
+    4300004: Cylinder001
+    4300006: Cylinder005
+    4300008: Cylinder010
+    4300010: Cylinder002
+    4300012: Cylinder012
+    4300014: glass
+    4300016: interior_low
+    4300018: turtleInDoorRight
+    4300020: Object007
+    4300022: turtleInDoorLeft
+    4300024: Cylinder013
+    4300026: Cylinder015
+    4300028: Cylinder014
+    4300030: Cylinder016
+    4300032: Cylinder017
+    4300034: Cylinder027
+    4300036: Cylinder026
+    4300038: Cylinder025
+    4300040: Cylinder020
+    4300042: Cylinder021
+    4300044: Cylinder022
+    4300046: Cylinder018
+    4300048: Cylinder023
+    4300050: Cylinder019
+    4300052: Cylinder024
+    4300054: decals
+    7400000: turtleDeparture
+    7400002: turtleLanding
+    7400004: turtleIdle
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: turtleDeparture
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: decals
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Cylinder001
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001/Bone002
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001/Bone002/Bone003
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001/Bone002/Cylinder005
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001/Cylinder010
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Dummy002/Cylinder002
+        weight: 1
+      - path: Dummy002/Cylinder012
+        weight: 1
+      - path: Dummy002/Cylinder012/IK Chain001
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: Dummy003/Cylinder013
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004/Bone005
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004/Bone005/Bone006
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004/Bone005/Cylinder014
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004/Cylinder015
+        weight: 1
+      - path: Dummy004
+        weight: 1
+      - path: Dummy004/Cylinder016
+        weight: 1
+      - path: Dummy004/Cylinder017
+        weight: 1
+      - path: Dummy004/Cylinder017/IK Chain002
+        weight: 1
+      - path: Dummy005
+        weight: 1
+      - path: Dummy005/Cylinder027
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012/Bone007
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012/Bone007/Bone011
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012/Bone007/Cylinder026
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012/Cylinder025
+        weight: 1
+      - path: Dummy006
+        weight: 1
+      - path: Dummy006/Cylinder020
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009/Bone010
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009/Bone010/Bone008
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009/Bone010/Cylinder022
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009/Cylinder021
+        weight: 1
+      - path: Dummy007
+        weight: 1
+      - path: Dummy007/Cylinder018
+        weight: 1
+      - path: Dummy007/Cylinder023
+        weight: 1
+      - path: Dummy007/Cylinder023/IK Chain004
+        weight: 1
+      - path: Dummy008
+        weight: 1
+      - path: Dummy008/Cylinder019
+        weight: 1
+      - path: Dummy008/Cylinder019/IK Chain003
+        weight: 1
+      - path: Dummy008/Cylinder024
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: interior_low
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turtleLanding
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: decals
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Cylinder001
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001/Bone002
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001/Bone002/Bone003
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001/Bone002/Cylinder005
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001/Cylinder010
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Dummy002/Cylinder002
+        weight: 1
+      - path: Dummy002/Cylinder012
+        weight: 1
+      - path: Dummy002/Cylinder012/IK Chain001
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: Dummy003/Cylinder013
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004/Bone005
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004/Bone005/Bone006
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004/Bone005/Cylinder014
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004/Cylinder015
+        weight: 1
+      - path: Dummy004
+        weight: 1
+      - path: Dummy004/Cylinder016
+        weight: 1
+      - path: Dummy004/Cylinder017
+        weight: 1
+      - path: Dummy004/Cylinder017/IK Chain002
+        weight: 1
+      - path: Dummy005
+        weight: 1
+      - path: Dummy005/Cylinder027
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012/Bone007
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012/Bone007/Bone011
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012/Bone007/Cylinder026
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012/Cylinder025
+        weight: 1
+      - path: Dummy006
+        weight: 1
+      - path: Dummy006/Cylinder020
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009/Bone010
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009/Bone010/Bone008
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009/Bone010/Cylinder022
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009/Cylinder021
+        weight: 1
+      - path: Dummy007
+        weight: 1
+      - path: Dummy007/Cylinder018
+        weight: 1
+      - path: Dummy007/Cylinder023
+        weight: 1
+      - path: Dummy007/Cylinder023/IK Chain004
+        weight: 1
+      - path: Dummy008
+        weight: 1
+      - path: Dummy008/Cylinder019
+        weight: 1
+      - path: Dummy008/Cylinder019/IK Chain003
+        weight: 1
+      - path: Dummy008/Cylinder024
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: interior_low
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turtleIdle
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: decals
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Cylinder001
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001/Bone002
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001/Bone002/Bone003
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001/Bone002/Cylinder005
+        weight: 1
+      - path: Dummy001/Cylinder001/Bone001/Cylinder010
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Dummy002/Cylinder002
+        weight: 1
+      - path: Dummy002/Cylinder012
+        weight: 1
+      - path: Dummy002/Cylinder012/IK Chain001
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: Dummy003/Cylinder013
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004/Bone005
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004/Bone005/Bone006
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004/Bone005/Cylinder014
+        weight: 1
+      - path: Dummy003/Cylinder013/Bone004/Cylinder015
+        weight: 1
+      - path: Dummy004
+        weight: 1
+      - path: Dummy004/Cylinder016
+        weight: 1
+      - path: Dummy004/Cylinder017
+        weight: 1
+      - path: Dummy004/Cylinder017/IK Chain002
+        weight: 1
+      - path: Dummy005
+        weight: 1
+      - path: Dummy005/Cylinder027
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012/Bone007
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012/Bone007/Bone011
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012/Bone007/Cylinder026
+        weight: 1
+      - path: Dummy005/Cylinder027/Bone012/Cylinder025
+        weight: 1
+      - path: Dummy006
+        weight: 1
+      - path: Dummy006/Cylinder020
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009/Bone010
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009/Bone010/Bone008
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009/Bone010/Cylinder022
+        weight: 1
+      - path: Dummy006/Cylinder020/Bone009/Cylinder021
+        weight: 1
+      - path: Dummy007
+        weight: 1
+      - path: Dummy007/Cylinder018
+        weight: 1
+      - path: Dummy007/Cylinder023
+        weight: 1
+      - path: Dummy007/Cylinder023/IK Chain004
+        weight: 1
+      - path: Dummy008
+        weight: 1
+      - path: Dummy008/Cylinder019
+        weight: 1
+      - path: Dummy008/Cylinder019/IK Chain003
+        weight: 1
+      - path: Dummy008/Cylinder024
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: interior_low
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 240
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

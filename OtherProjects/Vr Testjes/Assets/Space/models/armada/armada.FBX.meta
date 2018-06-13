@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 25003866b2c2f7548a377c2ab33f5694
+timeCreated: 1446838878
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: beckDoor
+    100004: Box001
+    100006: Box002
+    100008: Box003
+    100010: Box006
+    100012: Cylinder001
+    100014: Cylinder029
+    100016: Cylinder030
+    100018: Cylinder031
+    100020: Cylinder032
+    100022: Cylinder033
+    100024: Cylinder034
+    100026: Cylinder035
+    100028: Dummy001
+    100030: Dummy003
+    100032: Dummy004
+    100034: Dummy005
+    100036: Dummy006
+    100038: glass
+    100040: hull
+    100042: Object001
+    100044: Object001 1
+    100046: Object002
+    100048: Object003
+    100050: Object004
+    100052: Object005
+    100054: Object006
+    100056: Object007
+    100058: Object008
+    100060: shipInterior
+    100062: Bone001
+    100064: Bone002
+    100066: Bone003
+    100068: Bone004
+    100070: Bone005
+    100072: Bone006
+    100074: Bone007
+    100076: Bone008
+    100078: Dummy007
+    100080: Dummy008
+    100082: Dummy009
+    100084: Dummy010
+    100086: IK Chain001
+    100088: IK Chain002
+    100090: IK Chain003
+    100092: IK Chain004
+    100094: beckDoor2
+    100096: interior
+    400000: //RootNode
+    400002: beckDoor
+    400004: Box001
+    400006: Box002
+    400008: Box003
+    400010: Box006
+    400012: Cylinder001
+    400014: Cylinder029
+    400016: Cylinder030
+    400018: Cylinder031
+    400020: Cylinder032
+    400022: Cylinder033
+    400024: Cylinder034
+    400026: Cylinder035
+    400028: Dummy001
+    400030: Dummy003
+    400032: Dummy004
+    400034: Dummy005
+    400036: Dummy006
+    400038: glass
+    400040: hull
+    400042: Object001
+    400044: Object001 1
+    400046: Object002
+    400048: Object003
+    400050: Object004
+    400052: Object005
+    400054: Object006
+    400056: Object007
+    400058: Object008
+    400060: shipInterior
+    400062: Bone001
+    400064: Bone002
+    400066: Bone003
+    400068: Bone004
+    400070: Bone005
+    400072: Bone006
+    400074: Bone007
+    400076: Bone008
+    400078: Dummy007
+    400080: Dummy008
+    400082: Dummy009
+    400084: Dummy010
+    400086: IK Chain001
+    400088: IK Chain002
+    400090: IK Chain003
+    400092: IK Chain004
+    400094: beckDoor2
+    400096: interior
+    2300000: beckDoor
+    2300002: Box001
+    2300004: Box003
+    2300006: Box006
+    2300008: Cylinder001
+    2300010: Cylinder029
+    2300012: Cylinder030
+    2300014: Cylinder031
+    2300016: Cylinder032
+    2300018: Cylinder033
+    2300020: Cylinder034
+    2300022: Cylinder035
+    2300024: glass
+    2300026: hull
+    2300028: Object001 1
+    2300030: Object002
+    2300032: Object003
+    2300034: Object004
+    2300036: Object005
+    2300038: Object006
+    2300040: Object007
+    2300042: Object008
+    2300044: shipInterior
+    2300046: //RootNode
+    2300048: Object001
+    2300050: beckDoor2
+    2300052: interior
+    3300000: beckDoor
+    3300002: Box001
+    3300004: Box003
+    3300006: Box006
+    3300008: Cylinder001
+    3300010: Cylinder029
+    3300012: Cylinder030
+    3300014: Cylinder031
+    3300016: Cylinder032
+    3300018: Cylinder033
+    3300020: Cylinder034
+    3300022: Cylinder035
+    3300024: glass
+    3300026: hull
+    3300028: Object001 1
+    3300030: Object002
+    3300032: Object003
+    3300034: Object004
+    3300036: Object005
+    3300038: Object006
+    3300040: Object007
+    3300042: Object008
+    3300044: shipInterior
+    3300046: //RootNode
+    3300048: Object001
+    3300050: beckDoor2
+    3300052: interior
+    4300000: shipInterior
+    4300002: Cylinder030
+    4300004: beckDoor
+    4300006: Box001
+    4300008: hull
+    4300010: Cylinder033
+    4300012: glass
+    4300014: Object006
+    4300016: Cylinder034
+    4300018: Object005
+    4300020: Object007
+    4300022: Cylinder035
+    4300024: Object008
+    4300026: Box003
+    4300028: Box006
+    4300030: Object002
+    4300032: Object001
+    4300034: Cylinder001
+    4300036: Cylinder029
+    4300038: Cylinder031
+    4300040: Cylinder032
+    4300042: Object003
+    4300044: Object004
+    4300046: beckDoor2
+    4300048: interior
+    7400000: armadaIdle
+    7400002: armadaDeparture
+    7400004: armadaLanding
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: armadaIdle
+      takeName: Take 001
+      firstFrame: 95
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: Cylinder030
+        weight: 1
+      - path: Cylinder033
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: Dummy006
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: hull
+        weight: 1
+      - path: hull/Bone001
+        weight: 1
+      - path: hull/Bone001/Bone002
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Cylinder001
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Cylinder001/Dummy001
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Cylinder001/Dummy001/Cylinder029
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Cylinder001/Dummy008
+        weight: 1
+      - path: hull/Bone001/Bone002/Object001 1
+        weight: 1
+      - path: hull/Bone001/Object002
+        weight: 1
+      - path: hull/Bone006
+        weight: 1
+      - path: hull/Bone006/Bone005
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007/Bone008
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007/Cylinder032
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007/Cylinder032/Dummy010
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007/Cylinder032/Dummy010/Cylinder031
+        weight: 1
+      - path: hull/Bone006/Bone005/Object003
+        weight: 1
+      - path: hull/Bone006/Object004
+        weight: 1
+      - path: hull/Object005
+        weight: 1
+      - path: hull/Object005/Object006
+        weight: 1
+      - path: hull/Object005/Object006/Cylinder034
+        weight: 1
+      - path: hull/Object008
+        weight: 1
+      - path: hull/Object008/Object007
+        weight: 1
+      - path: hull/Object008/Object007/Cylinder035
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: armadaDeparture
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: beckDoor
+        weight: 1
+      - path: beckDoor/Box001
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: Box003
+        weight: 1
+      - path: Box006
+        weight: 1
+      - path: Cylinder030
+        weight: 1
+      - path: Cylinder033
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: Dummy006
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: hull
+        weight: 1
+      - path: hull/Bone001
+        weight: 1
+      - path: hull/Bone001/Bone002
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Cylinder001
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Cylinder001/Dummy001
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Cylinder001/Dummy001/Cylinder029
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Cylinder001/Dummy008
+        weight: 1
+      - path: hull/Bone001/Bone002/Object001 1
+        weight: 1
+      - path: hull/Bone001/Object002
+        weight: 1
+      - path: hull/Bone006
+        weight: 1
+      - path: hull/Bone006/Bone005
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007/Bone008
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007/Cylinder032
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007/Cylinder032/Dummy010
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007/Cylinder032/Dummy010/Cylinder031
+        weight: 1
+      - path: hull/Bone006/Bone005/Object003
+        weight: 1
+      - path: hull/Bone006/Object004
+        weight: 1
+      - path: hull/Dummy007
+        weight: 1
+      - path: hull/Dummy009
+        weight: 1
+      - path: hull/Object005
+        weight: 1
+      - path: hull/Object005/Object006
+        weight: 1
+      - path: hull/Object005/Object006/Cylinder034
+        weight: 1
+      - path: hull/Object008
+        weight: 1
+      - path: hull/Object008/Object007
+        weight: 1
+      - path: hull/Object008/Object007/Cylinder035
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: armadaLanding
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: beckDoor
+        weight: 1
+      - path: beckDoor/Box001
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: Box003
+        weight: 1
+      - path: Box006
+        weight: 1
+      - path: Cylinder030
+        weight: 1
+      - path: Cylinder033
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: Dummy006
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: hull
+        weight: 1
+      - path: hull/Bone001
+        weight: 1
+      - path: hull/Bone001/Bone002
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Cylinder001
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Cylinder001/Dummy001
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Cylinder001/Dummy001/Cylinder029
+        weight: 1
+      - path: hull/Bone001/Bone002/Bone003/Cylinder001/Dummy008
+        weight: 1
+      - path: hull/Bone001/Bone002/Object001 1
+        weight: 1
+      - path: hull/Bone001/Object002
+        weight: 1
+      - path: hull/Bone006
+        weight: 1
+      - path: hull/Bone006/Bone005
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007/Bone008
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007/Cylinder032
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007/Cylinder032/Dummy010
+        weight: 1
+      - path: hull/Bone006/Bone005/Bone007/Cylinder032/Dummy010/Cylinder031
+        weight: 1
+      - path: hull/Bone006/Bone005/Object003
+        weight: 1
+      - path: hull/Bone006/Object004
+        weight: 1
+      - path: hull/Dummy007
+        weight: 1
+      - path: hull/Dummy009
+        weight: 1
+      - path: hull/Object005
+        weight: 1
+      - path: hull/Object005/Object006
+        weight: 1
+      - path: hull/Object005/Object006/Cylinder034
+        weight: 1
+      - path: hull/Object008
+        weight: 1
+      - path: hull/Object008/Object007
+        weight: 1
+      - path: hull/Object008/Object007/Cylinder035
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

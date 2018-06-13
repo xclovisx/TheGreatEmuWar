@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: df680c4deacc0e7489cb24ad01eedfa3
+timeCreated: 1458426282
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: backDoor
+    100002: backDoor001
+    100004: Cylinder010
+    100006: Cylinder012
+    100008: Cylinder013
+    100010: Cylinder015
+    100012: Cylinder016
+    100014: Cylinder017
+    100016: Cylinder018
+    100018: Cylinder019
+    100020: //RootNode
+    100022: Dummy001
+    100024: Dummy002
+    100026: Dummy003
+    100028: Dummy004
+    100030: glass
+    100032: hull
+    100034: inerior
+    100036: Line002
+    100038: Line003
+    100040: BL1
+    100042: BL2
+    100044: BL3
+    100046: BL4
+    100048: BLFoot
+    100050: BR1
+    100052: BR2
+    100054: BR3
+    100056: BR4
+    100058: BRFoot
+    100060: deltaBackDoor
+    100062: Dummy005
+    100064: Dummy006
+    100066: Dummy007
+    100068: Dummy008
+    100070: Dummy009
+    100072: Dummy010
+    100074: FL1
+    100076: FL2
+    100078: FL3
+    100080: FL4
+    100082: FLFoot
+    100084: FR1
+    100086: FR2
+    100088: FR3
+    100090: FR4
+    100092: FRFoot
+    100094: Line001
+    100096: Cylinder002
+    100098: Plane005
+    100100: Plane007
+    100102: Plane008
+    400000: backDoor
+    400002: backDoor001
+    400004: Cylinder010
+    400006: Cylinder012
+    400008: Cylinder013
+    400010: Cylinder015
+    400012: Cylinder016
+    400014: Cylinder017
+    400016: Cylinder018
+    400018: Cylinder019
+    400020: //RootNode
+    400022: Dummy001
+    400024: Dummy002
+    400026: Dummy003
+    400028: Dummy004
+    400030: glass
+    400032: hull
+    400034: inerior
+    400036: Line002
+    400038: Line003
+    400040: BL1
+    400042: BL2
+    400044: BL3
+    400046: BL4
+    400048: BLFoot
+    400050: BR1
+    400052: BR2
+    400054: BR3
+    400056: BR4
+    400058: BRFoot
+    400060: deltaBackDoor
+    400062: Dummy005
+    400064: Dummy006
+    400066: Dummy007
+    400068: Dummy008
+    400070: Dummy009
+    400072: Dummy010
+    400074: FL1
+    400076: FL2
+    400078: FL3
+    400080: FL4
+    400082: FLFoot
+    400084: FR1
+    400086: FR2
+    400088: FR3
+    400090: FR4
+    400092: FRFoot
+    400094: Line001
+    400096: Cylinder002
+    400098: Plane005
+    400100: Plane007
+    400102: Plane008
+    2300000: backDoor
+    2300002: backDoor001
+    2300004: Cylinder010
+    2300006: Cylinder012
+    2300008: Cylinder013
+    2300010: Cylinder015
+    2300012: Cylinder016
+    2300014: Cylinder017
+    2300016: Cylinder018
+    2300018: Cylinder019
+    2300020: glass
+    2300022: hull
+    2300024: inerior
+    2300026: Line002
+    2300028: Line003
+    2300030: BL1
+    2300032: BL2
+    2300034: BL3
+    2300036: BL4
+    2300038: BLFoot
+    2300040: BR1
+    2300042: BR2
+    2300044: BR3
+    2300046: BR4
+    2300048: BRFoot
+    2300050: deltaBackDoor
+    2300052: FL1
+    2300054: FL2
+    2300056: FL3
+    2300058: FL4
+    2300060: FLFoot
+    2300062: FR1
+    2300064: FR2
+    2300066: FR3
+    2300068: FR4
+    2300070: FRFoot
+    2300072: Line001
+    2300074: Cylinder002
+    2300076: Plane005
+    2300078: Plane007
+    2300080: Plane008
+    3300000: backDoor
+    3300002: backDoor001
+    3300004: Cylinder010
+    3300006: Cylinder012
+    3300008: Cylinder013
+    3300010: Cylinder015
+    3300012: Cylinder016
+    3300014: Cylinder017
+    3300016: Cylinder018
+    3300018: Cylinder019
+    3300020: glass
+    3300022: hull
+    3300024: inerior
+    3300026: Line002
+    3300028: Line003
+    3300030: BL1
+    3300032: BL2
+    3300034: BL3
+    3300036: BL4
+    3300038: BLFoot
+    3300040: BR1
+    3300042: BR2
+    3300044: BR3
+    3300046: BR4
+    3300048: BRFoot
+    3300050: deltaBackDoor
+    3300052: FL1
+    3300054: FL2
+    3300056: FL3
+    3300058: FL4
+    3300060: FLFoot
+    3300062: FR1
+    3300064: FR2
+    3300066: FR3
+    3300068: FR4
+    3300070: FRFoot
+    3300072: Line001
+    3300074: Cylinder002
+    3300076: Plane005
+    3300078: Plane007
+    3300080: Plane008
+    4300000: hull
+    4300002: Cylinder013
+    4300004: Cylinder019
+    4300006: Line002
+    4300008: Cylinder012
+    4300010: Cylinder010
+    4300012: Cylinder015
+    4300014: Cylinder017
+    4300016: Cylinder018
+    4300018: Line003
+    4300020: Cylinder016
+    4300022: backDoor
+    4300024: glass
+    4300026: inerior
+    4300028: backDoor001
+    4300030: BR1
+    4300032: FR1
+    4300034: FL1
+    4300036: BL1
+    4300038: BR3
+    4300040: BR2
+    4300042: BRFoot
+    4300044: BR4
+    4300046: deltaBackDoor
+    4300048: FR3
+    4300050: FR2
+    4300052: FRFoot
+    4300054: FR4
+    4300056: FL3
+    4300058: FL2
+    4300060: FLFoot
+    4300062: FL4
+    4300064: BLFoot
+    4300066: BL4
+    4300068: BL3
+    4300070: BL2
+    4300072: Line001
+    4300074: Cylinder002
+    4300076: Plane005
+    4300078: Plane007
+    4300080: Plane008
+    7400000: DeltaIdle
+    7400002: DeltaLanding
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DeltaIdle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BL3
+        weight: 1
+      - path: BL3/Dummy009
+        weight: 1
+      - path: BL3/Dummy009/BL2
+        weight: 1
+      - path: BLFoot
+        weight: 1
+      - path: BLFoot/BL4
+        weight: 1
+      - path: BR3
+        weight: 1
+      - path: BR3/Dummy003
+        weight: 1
+      - path: BR3/Dummy003/BR2
+        weight: 1
+      - path: BRFoot
+        weight: 1
+      - path: BRFoot/BR4
+        weight: 1
+      - path: FL3
+        weight: 1
+      - path: FL3/Dummy008
+        weight: 1
+      - path: FL3/Dummy008/FL2
+        weight: 1
+      - path: FLFoot
+        weight: 1
+      - path: FLFoot/FL4
+        weight: 1
+      - path: FR3
+        weight: 1
+      - path: FR3/Dummy006
+        weight: 1
+      - path: FR3/Dummy006/FR2
+        weight: 1
+      - path: FRFoot
+        weight: 1
+      - path: FRFoot/FR4
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: hull
+        weight: 1
+      - path: hull/Dummy004
+        weight: 1
+      - path: hull/Dummy004/BR1
+        weight: 1
+      - path: hull/Dummy005
+        weight: 1
+      - path: hull/Dummy005/FR1
+        weight: 1
+      - path: hull/Dummy007
+        weight: 1
+      - path: hull/Dummy007/FL1
+        weight: 1
+      - path: hull/Dummy010
+        weight: 1
+      - path: hull/Dummy010/BL1
+        weight: 1
+      - path: inerior
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: DeltaLanding
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BL3
+        weight: 1
+      - path: BL3/Dummy009
+        weight: 1
+      - path: BL3/Dummy009/BL2
+        weight: 1
+      - path: BLFoot
+        weight: 1
+      - path: BLFoot/BL4
+        weight: 1
+      - path: BR3
+        weight: 1
+      - path: BR3/Dummy003
+        weight: 1
+      - path: BR3/Dummy003/BR2
+        weight: 1
+      - path: BRFoot
+        weight: 1
+      - path: BRFoot/BR4
+        weight: 1
+      - path: FL3
+        weight: 1
+      - path: FL3/Dummy008
+        weight: 1
+      - path: FL3/Dummy008/FL2
+        weight: 1
+      - path: FLFoot
+        weight: 1
+      - path: FLFoot/FL4
+        weight: 1
+      - path: FR3
+        weight: 1
+      - path: FR3/Dummy006
+        weight: 1
+      - path: FR3/Dummy006/FR2
+        weight: 1
+      - path: FRFoot
+        weight: 1
+      - path: FRFoot/FR4
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: hull
+        weight: 1
+      - path: hull/Dummy004
+        weight: 1
+      - path: hull/Dummy004/BR1
+        weight: 1
+      - path: hull/Dummy005
+        weight: 1
+      - path: hull/Dummy005/FR1
+        weight: 1
+      - path: hull/Dummy007
+        weight: 1
+      - path: hull/Dummy007/FL1
+        weight: 1
+      - path: hull/Dummy010
+        weight: 1
+      - path: hull/Dummy010/BL1
+        weight: 1
+      - path: inerior
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

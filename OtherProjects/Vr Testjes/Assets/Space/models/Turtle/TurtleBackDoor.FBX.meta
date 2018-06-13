@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 24a65fbea55e9b24dabd60f95ff5c9bf
+timeCreated: 1487973432
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone001
+    100004: Bone002
+    100006: Bone003
+    100008: Bone004
+    100010: Bone005
+    100012: Bone006
+    100014: Bone007
+    100016: Bone008
+    100018: Bone009
+    100020: Bone010
+    100022: Bone011
+    100024: Bone012
+    100026: Box001
+    100028: Cylinder001
+    100030: Cylinder002
+    100032: Cylinder005
+    100034: Cylinder010
+    100036: Cylinder012
+    100038: Cylinder013
+    100040: Cylinder014
+    100042: Cylinder015
+    100044: Cylinder016
+    100046: Cylinder017
+    100048: Cylinder018
+    100050: Cylinder019
+    100052: Cylinder020
+    100054: Cylinder021
+    100056: Cylinder022
+    100058: Cylinder023
+    100060: Cylinder024
+    100062: Cylinder025
+    100064: Cylinder026
+    100066: Cylinder027
+    100068: decals
+    100070: Dummy001
+    100072: Dummy002
+    100074: Dummy003
+    100076: Dummy004
+    100078: Dummy005
+    100080: Dummy006
+    100082: Dummy007
+    100084: Dummy008
+    100086: glass
+    100088: IK Chain001
+    100090: IK Chain002
+    100092: IK Chain003
+    100094: IK Chain004
+    100096: interior_low
+    100098: Object002
+    100100: Object003
+    100102: Object007
+    100104: turtleBackDoor
+    100106: turtleInDoorLeft
+    100108: turtleInDoorRight
+    400000: //RootNode
+    400002: Bone001
+    400004: Bone002
+    400006: Bone003
+    400008: Bone004
+    400010: Bone005
+    400012: Bone006
+    400014: Bone007
+    400016: Bone008
+    400018: Bone009
+    400020: Bone010
+    400022: Bone011
+    400024: Bone012
+    400026: Box001
+    400028: Cylinder001
+    400030: Cylinder002
+    400032: Cylinder005
+    400034: Cylinder010
+    400036: Cylinder012
+    400038: Cylinder013
+    400040: Cylinder014
+    400042: Cylinder015
+    400044: Cylinder016
+    400046: Cylinder017
+    400048: Cylinder018
+    400050: Cylinder019
+    400052: Cylinder020
+    400054: Cylinder021
+    400056: Cylinder022
+    400058: Cylinder023
+    400060: Cylinder024
+    400062: Cylinder025
+    400064: Cylinder026
+    400066: Cylinder027
+    400068: decals
+    400070: Dummy001
+    400072: Dummy002
+    400074: Dummy003
+    400076: Dummy004
+    400078: Dummy005
+    400080: Dummy006
+    400082: Dummy007
+    400084: Dummy008
+    400086: glass
+    400088: IK Chain001
+    400090: IK Chain002
+    400092: IK Chain003
+    400094: IK Chain004
+    400096: interior_low
+    400098: Object002
+    400100: Object003
+    400102: Object007
+    400104: turtleBackDoor
+    400106: turtleInDoorLeft
+    400108: turtleInDoorRight
+    2300000: //RootNode
+    2300002: Box001
+    2300004: Cylinder001
+    2300006: Cylinder002
+    2300008: Cylinder005
+    2300010: Cylinder010
+    2300012: Cylinder012
+    2300014: Cylinder013
+    2300016: Cylinder014
+    2300018: Cylinder015
+    2300020: Cylinder016
+    2300022: Cylinder017
+    2300024: Cylinder018
+    2300026: Cylinder019
+    2300028: Cylinder020
+    2300030: Cylinder021
+    2300032: Cylinder022
+    2300034: Cylinder023
+    2300036: Cylinder024
+    2300038: Cylinder025
+    2300040: Cylinder026
+    2300042: Cylinder027
+    2300044: decals
+    2300046: glass
+    2300048: interior_low
+    2300050: Object007
+    2300052: turtleBackDoor
+    2300054: turtleInDoorLeft
+    2300056: turtleInDoorRight
+    3300000: //RootNode
+    3300002: Box001
+    3300004: Cylinder001
+    3300006: Cylinder002
+    3300008: Cylinder005
+    3300010: Cylinder010
+    3300012: Cylinder012
+    3300014: Cylinder013
+    3300016: Cylinder014
+    3300018: Cylinder015
+    3300020: Cylinder016
+    3300022: Cylinder017
+    3300024: Cylinder018
+    3300026: Cylinder019
+    3300028: Cylinder020
+    3300030: Cylinder021
+    3300032: Cylinder022
+    3300034: Cylinder023
+    3300036: Cylinder024
+    3300038: Cylinder025
+    3300040: Cylinder026
+    3300042: Cylinder027
+    3300044: decals
+    3300046: glass
+    3300048: interior_low
+    3300050: Object007
+    3300052: turtleBackDoor
+    3300054: turtleInDoorLeft
+    3300056: turtleInDoorRight
+    4300000: turtleBackDoor
+    4300002: Box001
+    4300004: Cylinder001
+    4300006: Cylinder005
+    4300008: Cylinder010
+    4300010: Cylinder002
+    4300012: Cylinder012
+    4300014: glass
+    4300016: interior_low
+    4300018: turtleInDoorRight
+    4300020: Object007
+    4300022: turtleInDoorLeft
+    4300024: Cylinder013
+    4300026: Cylinder015
+    4300028: Cylinder014
+    4300030: Cylinder016
+    4300032: Cylinder017
+    4300034: Cylinder027
+    4300036: Cylinder026
+    4300038: Cylinder025
+    4300040: Cylinder020
+    4300042: Cylinder021
+    4300044: Cylinder022
+    4300046: Cylinder018
+    4300048: Cylinder023
+    4300050: Cylinder019
+    4300052: Cylinder024
+    4300054: decals
+    7400000: turtleBackOpen
+    7400002: turtleBackClose
+    7400004: turtleBackIdle
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: turtleBackOpen
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.0152838435
+        functionName: OpenSound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turtleBackClose
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.06768558
+        functionName: OpenSound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turtleBackIdle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 240
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

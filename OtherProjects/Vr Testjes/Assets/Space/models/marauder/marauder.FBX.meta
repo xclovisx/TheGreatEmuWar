@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: 62f67ea0da7aa9b479dbe188a6d4ffd8
+timeCreated: 1480922373
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: backDoorDown
+    100002: backDoorUp
+    100004: Box001
+    100006: Box002
+    100008: Cylinder013
+    100010: Cylinder018
+    100012: Cylinder021
+    100014: Cylinder022
+    100016: Cylinder023
+    100018: Cylinder024
+    100020: Cylinder025
+    100022: glass
+    100024: //RootNode
+    100026: Bone013
+    100028: Bone014
+    100030: Bone015
+    100032: Bone016
+    100034: Bone017
+    100036: Bone018
+    100038: Bone019
+    100040: Bone020
+    100042: Box002 1
+    100044: chairB
+    100046: Cylinder003
+    100048: Cylinder005
+    100050: Cylinder006
+    100052: Cylinder007
+    100054: Cylinder008
+    100056: Cylinder009
+    100058: Dummy001
+    100060: Dummy003
+    100062: Dummy006
+    100064: Dummy007
+    100066: Dummy008
+    100068: IK Chain004
+    100070: IK Chain005
+    100072: Object001
+    100074: Object006
+    100076: Cylinder011
+    100078: MarauderIntr
+    100080: handles
+    100082: marauderLow
+    100084: wheel
+    100086: wheel001
+    100088: wheel002
+    100090: wheel003
+    100092: wheel004
+    100094: wheel005
+    100096: chair
+    400000: backDoorDown
+    400002: backDoorUp
+    400004: Box001
+    400006: Box002
+    400008: Cylinder013
+    400010: Cylinder018
+    400012: Cylinder021
+    400014: Cylinder022
+    400016: Cylinder023
+    400018: Cylinder024
+    400020: Cylinder025
+    400022: glass
+    400024: //RootNode
+    400026: Bone013
+    400028: Bone014
+    400030: Bone015
+    400032: Bone016
+    400034: Bone017
+    400036: Bone018
+    400038: Bone019
+    400040: Bone020
+    400042: Box002 1
+    400044: chairB
+    400046: Cylinder003
+    400048: Cylinder005
+    400050: Cylinder006
+    400052: Cylinder007
+    400054: Cylinder008
+    400056: Cylinder009
+    400058: Dummy001
+    400060: Dummy003
+    400062: Dummy006
+    400064: Dummy007
+    400066: Dummy008
+    400068: IK Chain004
+    400070: IK Chain005
+    400072: Object001
+    400074: Object006
+    400076: Cylinder011
+    400078: MarauderIntr
+    400080: handles
+    400082: marauderLow
+    400084: wheel
+    400086: wheel001
+    400088: wheel002
+    400090: wheel003
+    400092: wheel004
+    400094: wheel005
+    400096: chair
+    2300000: backDoorDown
+    2300002: backDoorUp
+    2300004: Box001
+    2300006: Box002
+    2300008: Cylinder013
+    2300010: Cylinder018
+    2300012: Cylinder021
+    2300014: Cylinder022
+    2300016: Cylinder023
+    2300018: Cylinder024
+    2300020: Cylinder025
+    2300022: glass
+    2300024: Box002 1
+    2300026: chairB
+    2300028: Cylinder003
+    2300030: Cylinder005
+    2300032: Cylinder006
+    2300034: Cylinder007
+    2300036: Cylinder008
+    2300038: Cylinder009
+    2300040: Object006
+    2300042: Cylinder011
+    2300044: MarauderIntr
+    2300046: Object001
+    2300048: //RootNode
+    2300050: handles
+    2300052: marauderLow
+    2300054: wheel
+    2300056: wheel001
+    2300058: wheel002
+    2300060: wheel003
+    2300062: wheel004
+    2300064: wheel005
+    2300066: chair
+    3300000: backDoorDown
+    3300002: backDoorUp
+    3300004: Box001
+    3300006: Box002
+    3300008: Cylinder013
+    3300010: Cylinder018
+    3300012: Cylinder021
+    3300014: Cylinder022
+    3300016: Cylinder023
+    3300018: Cylinder024
+    3300020: Cylinder025
+    3300022: glass
+    3300024: Box002 1
+    3300026: chairB
+    3300028: Cylinder003
+    3300030: Cylinder005
+    3300032: Cylinder006
+    3300034: Cylinder007
+    3300036: Cylinder008
+    3300038: Cylinder009
+    3300040: Object006
+    3300042: Cylinder011
+    3300044: MarauderIntr
+    3300046: Object001
+    3300048: //RootNode
+    3300050: handles
+    3300052: marauderLow
+    3300054: wheel
+    3300056: wheel001
+    3300058: wheel002
+    3300060: wheel003
+    3300062: wheel004
+    3300064: wheel005
+    3300066: chair
+    4300000: Box001
+    4300002: Cylinder013
+    4300004: Cylinder018
+    4300006: Cylinder021
+    4300008: Cylinder022
+    4300010: Cylinder023
+    4300012: Cylinder024
+    4300014: Cylinder025
+    4300016: Box002
+    4300018: backDoorUp
+    4300020: backDoorDown
+    4300022: glass
+    4300024: Cylinder007
+    4300026: Cylinder008
+    4300028: Cylinder009
+    4300030: Cylinder006
+    4300032: Cylinder005
+    4300034: Cylinder003
+    4300036: Object006
+    4300038: chairB
+    4300040: Cylinder011
+    4300042: MarauderIntr
+    4300044: Object001
+    4300046: marauderLow
+    4300048: handles
+    4300050: wheel
+    4300052: wheel001
+    4300054: wheel002
+    4300056: wheel003
+    4300058: wheel004
+    4300060: wheel005
+    4300062: chair
+    7400000: marauderOpen
+    7400002: marauderClose
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: marauderOpen
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: backDoorDown
+        weight: 1
+      - path: backDoorUp
+        weight: 1
+      - path: chair
+        weight: 1
+      - path: chair/handles
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: MarauderIntr
+        weight: 1
+      - path: marauderLow
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: wheel
+        weight: 1
+      - path: wheel001
+        weight: 1
+      - path: wheel002
+        weight: 1
+      - path: wheel003
+        weight: 1
+      - path: wheel004
+        weight: 1
+      - path: wheel005
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: marauderClose
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: backDoorDown
+        weight: 1
+      - path: backDoorUp
+        weight: 1
+      - path: chair
+        weight: 1
+      - path: chair/handles
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: MarauderIntr
+        weight: 1
+      - path: marauderLow
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: wheel
+        weight: 1
+      - path: wheel001
+        weight: 1
+      - path: wheel002
+        weight: 1
+      - path: wheel003
+        weight: 1
+      - path: wheel004
+        weight: 1
+      - path: wheel005
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.4
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

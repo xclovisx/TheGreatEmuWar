@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: b017048cadf40394f9f66b3f73053d0b
+timeCreated: 1427353462
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: cockpit
+    100004: cover
+    100006: hull
+    100008: Object009
+    100010: cockPitCover
+    100012: hullLow
+    100014: leftPaw
+    100016: Object001
+    100018: rearPaw
+    100020: rightPaw
+    100022: cockpit001
+    100024: cockPitCover001
+    100026: hullLow001
+    400000: //RootNode
+    400002: cockpit
+    400004: cover
+    400006: hull
+    400008: Object009
+    400010: cockPitCover
+    400012: hullLow
+    400014: leftPaw
+    400016: Object001
+    400018: rearPaw
+    400020: rightPaw
+    400022: cockpit001
+    400024: cockPitCover001
+    400026: hullLow001
+    2300000: //RootNode
+    2300002: cockpit
+    2300004: cover
+    2300006: hull
+    2300008: Object009
+    2300010: cockPitCover
+    2300012: hullLow
+    2300014: leftPaw
+    2300016: Object001
+    2300018: rearPaw
+    2300020: rightPaw
+    2300022: cockpit001
+    2300024: cockPitCover001
+    2300026: hullLow001
+    3300000: //RootNode
+    3300002: cockpit
+    3300004: cover
+    3300006: hull
+    3300008: Object009
+    3300010: cockPitCover
+    3300012: hullLow
+    3300014: leftPaw
+    3300016: Object001
+    3300018: rearPaw
+    3300020: rightPaw
+    3300022: cockpit001
+    3300024: cockPitCover001
+    3300026: hullLow001
+    4300000: hull
+    4300002: cockpit
+    4300004: cover
+    4300006: Object009
+    4300008: hullLow
+    4300010: cockPitCover
+    4300012: rearPaw
+    4300014: Object001
+    4300016: rightPaw
+    4300018: leftPaw
+    4300020: hullLow001
+    4300022: cockPitCover001
+    4300024: cockpit001
+    7400000: ssa_landing
+    7400002: ssa_idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ssa_landing
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cockPitCover
+        weight: 1
+      - path: leftPaw
+        weight: 1
+      - path: rearPaw
+        weight: 1
+      - path: rearPaw/Object001
+        weight: 1
+      - path: rightPaw
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ssa_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cockPitCover
+        weight: 1
+      - path: leftPaw
+        weight: 1
+      - path: rearPaw
+        weight: 1
+      - path: rearPaw/Object001
+        weight: 1
+      - path: rightPaw
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.20000005
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

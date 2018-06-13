@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: cd460d0e59b1eba4bb9f4e82f46fac10
+timeCreated: 1478292020
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone013
+    100002: Bone014
+    100004: Bone015
+    100006: Bone016
+    100008: Bone017
+    100010: Bone018
+    100012: Bone019
+    100014: Bone020
+    100016: Cylinder003
+    100018: Cylinder005
+    100020: Cylinder006
+    100022: Cylinder007
+    100024: Cylinder008
+    100026: Cylinder009
+    100028: Dummy007
+    100030: Dummy008
+    100032: IK Chain004
+    100034: IK Chain005
+    100036: Object006
+    100038: //RootNode
+    100040: Box002
+    100042: Dummy001
+    100044: Dummy003
+    100046: Dummy006
+    100048: Object001
+    400000: Bone013
+    400002: Bone014
+    400004: Bone015
+    400006: Bone016
+    400008: Bone017
+    400010: Bone018
+    400012: Bone019
+    400014: Bone020
+    400016: Cylinder003
+    400018: Cylinder005
+    400020: Cylinder006
+    400022: Cylinder007
+    400024: Cylinder008
+    400026: Cylinder009
+    400028: Dummy007
+    400030: Dummy008
+    400032: IK Chain004
+    400034: IK Chain005
+    400036: Object006
+    400038: //RootNode
+    400040: Box002
+    400042: Dummy001
+    400044: Dummy003
+    400046: Dummy006
+    400048: Object001
+    2300000: Cylinder003
+    2300002: Cylinder005
+    2300004: Cylinder006
+    2300006: Cylinder007
+    2300008: Cylinder008
+    2300010: Cylinder009
+    2300012: Object006
+    3300000: Cylinder003
+    3300002: Cylinder005
+    3300004: Cylinder006
+    3300006: Cylinder007
+    3300008: Cylinder008
+    3300010: Cylinder009
+    3300012: Object006
+    4300000: Object006
+    4300002: Cylinder006
+    4300004: Cylinder005
+    4300006: Cylinder003
+    4300008: Cylinder007
+    4300010: Cylinder008
+    4300012: Cylinder009
+    7400000: needleDoorOpen
+    7400002: needleDoorIdle
+    7400004: needleDoorClose
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: needleDoorOpen
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.08579887
+        functionName: OpenSound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone013
+        weight: 1
+      - path: Bone013/Bone014
+        weight: 1
+      - path: Bone013/Bone014/Bone015
+        weight: 1
+      - path: Bone013/Bone014/Bone015/Bone016
+        weight: 1
+      - path: Bone013/Bone014/Bone015/Cylinder006
+        weight: 1
+      - path: Bone013/Bone014/Cylinder005
+        weight: 1
+      - path: Bone013/Cylinder003
+        weight: 1
+      - path: Bone017
+        weight: 1
+      - path: Bone017/Bone018
+        weight: 1
+      - path: Bone017/Bone018/Bone020
+        weight: 1
+      - path: Bone017/Bone018/Bone020/Bone019
+        weight: 1
+      - path: Bone017/Bone018/Bone020/Cylinder007
+        weight: 1
+      - path: Bone017/Bone018/Cylinder008
+        weight: 1
+      - path: Bone017/Cylinder009
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: Dummy006
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object006/Dummy007
+        weight: 1
+      - path: Object006/Dummy007/IK Chain004
+        weight: 1
+      - path: Object006/Dummy008
+        weight: 1
+      - path: Object006/Dummy008/IK Chain005
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: needleDoorIdle
+      takeName: Take 001
+      firstFrame: 39
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone013
+        weight: 1
+      - path: Bone013/Bone014
+        weight: 1
+      - path: Bone013/Bone014/Bone015
+        weight: 1
+      - path: Bone013/Bone014/Bone015/Bone016
+        weight: 1
+      - path: Bone013/Bone014/Bone015/Cylinder006
+        weight: 1
+      - path: Bone013/Bone014/Cylinder005
+        weight: 1
+      - path: Bone013/Cylinder003
+        weight: 1
+      - path: Bone017
+        weight: 1
+      - path: Bone017/Bone018
+        weight: 1
+      - path: Bone017/Bone018/Bone020
+        weight: 1
+      - path: Bone017/Bone018/Bone020/Bone019
+        weight: 1
+      - path: Bone017/Bone018/Bone020/Cylinder007
+        weight: 1
+      - path: Bone017/Bone018/Cylinder008
+        weight: 1
+      - path: Bone017/Cylinder009
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: Dummy006
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object006/Dummy007
+        weight: 1
+      - path: Object006/Dummy007/IK Chain004
+        weight: 1
+      - path: Object006/Dummy008
+        weight: 1
+      - path: Object006/Dummy008/IK Chain005
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: needleDoorClose
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.07692307
+        functionName: OpenSound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone013
+        weight: 1
+      - path: Bone013/Bone014
+        weight: 1
+      - path: Bone013/Bone014/Bone015
+        weight: 1
+      - path: Bone013/Bone014/Bone015/Bone016
+        weight: 1
+      - path: Bone013/Bone014/Bone015/Cylinder006
+        weight: 1
+      - path: Bone013/Bone014/Cylinder005
+        weight: 1
+      - path: Bone013/Cylinder003
+        weight: 1
+      - path: Bone017
+        weight: 1
+      - path: Bone017/Bone018
+        weight: 1
+      - path: Bone017/Bone018/Bone020
+        weight: 1
+      - path: Bone017/Bone018/Bone020/Bone019
+        weight: 1
+      - path: Bone017/Bone018/Bone020/Cylinder007
+        weight: 1
+      - path: Bone017/Bone018/Cylinder008
+        weight: 1
+      - path: Bone017/Cylinder009
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: Dummy006
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object006/Dummy007
+        weight: 1
+      - path: Object006/Dummy007/IK Chain004
+        weight: 1
+      - path: Object006/Dummy008
+        weight: 1
+      - path: Object006/Dummy008/IK Chain005
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

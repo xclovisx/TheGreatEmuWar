@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 1e64ad1a5d3f86940b5007de51e5259e
+timeCreated: 1451166020
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bDoorBone005
+    100002: bDoorBone006
+    100004: bDoorBone007
+    100006: Bone001
+    100008: Bone002
+    100010: Bone003
+    100012: Bone004
+    100014: Bone005
+    100016: Bone006
+    100018: Bone007
+    100020: Bone008
+    100022: Bone009
+    100024: Bone010
+    100026: Bone011
+    100028: Bone012
+    100030: Bone013
+    100032: Bone014
+    100034: Bone015
+    100036: Bone016
+    100038: CargoShip
+    100040: //RootNode
+    100042: cargoShipBDoor
+    100044: Cylinder003
+    100046: Cylinder005
+    100048: Cylinder006
+    100050: Cylinder007
+    100052: Cylinder008
+    100054: Cylinder009
+    100056: Cylinder010
+    100058: Cylinder011
+    100060: Cylinder012
+    100062: Cylinder013
+    100064: Cylinder014
+    100066: Cylinder015
+    100068: Dummy001
+    100070: Dummy002
+    100072: Dummy003
+    100074: Dummy004
+    100076: glass
+    100078: IK Chain001
+    100080: IK Chain002
+    100082: IK Chain003
+    100084: IK Chain004
+    100086: IK Chain005
+    100088: IK Chain006
+    100090: IK Chain007
+    100092: IK Chain008
+    100094: IK Chain009
+    100096: legLB1
+    100098: legLF1
+    100100: legRB1
+    100102: legRF1
+    100104: Object004
+    100106: Object008
+    100108: Object009
+    100110: Object010
+    100112: Object012
+    100114: Object014
+    400000: bDoorBone005
+    400002: bDoorBone006
+    400004: bDoorBone007
+    400006: Bone001
+    400008: Bone002
+    400010: Bone003
+    400012: Bone004
+    400014: Bone005
+    400016: Bone006
+    400018: Bone007
+    400020: Bone008
+    400022: Bone009
+    400024: Bone010
+    400026: Bone011
+    400028: Bone012
+    400030: Bone013
+    400032: Bone014
+    400034: Bone015
+    400036: Bone016
+    400038: CargoShip
+    400040: //RootNode
+    400042: cargoShipBDoor
+    400044: Cylinder003
+    400046: Cylinder005
+    400048: Cylinder006
+    400050: Cylinder007
+    400052: Cylinder008
+    400054: Cylinder009
+    400056: Cylinder010
+    400058: Cylinder011
+    400060: Cylinder012
+    400062: Cylinder013
+    400064: Cylinder014
+    400066: Cylinder015
+    400068: Dummy001
+    400070: Dummy002
+    400072: Dummy003
+    400074: Dummy004
+    400076: glass
+    400078: IK Chain001
+    400080: IK Chain002
+    400082: IK Chain003
+    400084: IK Chain004
+    400086: IK Chain005
+    400088: IK Chain006
+    400090: IK Chain007
+    400092: IK Chain008
+    400094: IK Chain009
+    400096: legLB1
+    400098: legLF1
+    400100: legRB1
+    400102: legRF1
+    400104: Object004
+    400106: Object008
+    400108: Object009
+    400110: Object010
+    400112: Object012
+    400114: Object014
+    2300000: CargoShip
+    2300002: Cylinder003
+    2300004: Cylinder005
+    2300006: Cylinder006
+    2300008: Cylinder007
+    2300010: Cylinder008
+    2300012: Cylinder009
+    2300014: Cylinder010
+    2300016: Cylinder011
+    2300018: Cylinder012
+    2300020: Cylinder013
+    2300022: Cylinder014
+    2300024: Cylinder015
+    2300026: glass
+    2300028: legLB1
+    2300030: legLF1
+    2300032: legRB1
+    2300034: legRF1
+    2300036: Object004
+    2300038: Object008
+    2300040: Object009
+    2300042: Object010
+    2300044: Object012
+    2300046: Object014
+    3300000: CargoShip
+    3300002: Cylinder003
+    3300004: Cylinder005
+    3300006: Cylinder006
+    3300008: Cylinder007
+    3300010: Cylinder008
+    3300012: Cylinder009
+    3300014: Cylinder010
+    3300016: Cylinder011
+    3300018: Cylinder012
+    3300020: Cylinder013
+    3300022: Cylinder014
+    3300024: Cylinder015
+    3300026: glass
+    3300028: legLB1
+    3300030: legLF1
+    3300032: legRB1
+    3300034: legRF1
+    3300036: Object004
+    3300038: Object008
+    3300040: Object009
+    3300042: Object010
+    3300044: Object012
+    3300046: Object014
+    4300000: CargoShip
+    4300002: glass
+    4300004: cargoShipBDoor
+    4300006: Cylinder003
+    4300008: Cylinder005
+    4300010: legLF1
+    4300012: Object004
+    4300014: Cylinder006
+    4300016: Object009
+    4300018: Object008
+    4300020: Cylinder007
+    4300022: legLB1
+    4300024: Object010
+    4300026: Cylinder009
+    4300028: Cylinder008
+    4300030: Cylinder011
+    4300032: legRF1
+    4300034: Object014
+    4300036: Cylinder012
+    4300038: Cylinder014
+    4300040: Cylinder013
+    4300042: Cylinder010
+    4300044: Object012
+    4300046: legRB1
+    4300048: Cylinder015
+    7400000: cargoIdle
+    7400002: cargoLanding
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: cargoShipBDoor
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: cargoIdle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CargoShip
+        weight: 1
+      - path: Cylinder003
+        weight: 1
+      - path: Cylinder007
+        weight: 1
+      - path: Cylinder011
+        weight: 1
+      - path: Cylinder013
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Bone001
+        weight: 1
+      - path: Dummy001/Bone001/Bone002
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003/legLF1
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Object004
+        weight: 1
+      - path: Dummy001/Bone001/Cylinder006
+        weight: 1
+      - path: Dummy001/Cylinder005
+        weight: 1
+      - path: Dummy001/IK Chain001
+        weight: 1
+      - path: Dummy001/IK Chain002
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Dummy002/Bone006
+        weight: 1
+      - path: Dummy002/Bone006/Bone007
+        weight: 1
+      - path: Dummy002/Bone006/Bone007/Bone005
+        weight: 1
+      - path: Dummy002/Bone006/Bone007/Bone005/Bone008
+        weight: 1
+      - path: Dummy002/Bone006/Bone007/Bone005/legLB1
+        weight: 1
+      - path: Dummy002/Bone006/Bone007/Object010
+        weight: 1
+      - path: Dummy002/Bone006/Cylinder009
+        weight: 1
+      - path: Dummy002/Cylinder008
+        weight: 1
+      - path: Dummy002/IK Chain004
+        weight: 1
+      - path: Dummy002/IK Chain005
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: Dummy003/Bone009
+        weight: 1
+      - path: Dummy003/Bone009/Bone010
+        weight: 1
+      - path: Dummy003/Bone009/Bone010/Bone011
+        weight: 1
+      - path: Dummy003/Bone009/Bone010/Bone011/Bone012
+        weight: 1
+      - path: Dummy003/Bone009/Bone010/Bone011/legRF1
+        weight: 1
+      - path: Dummy003/Bone009/Bone010/Object014
+        weight: 1
+      - path: Dummy003/Bone009/Cylinder012
+        weight: 1
+      - path: Dummy003/Cylinder014
+        weight: 1
+      - path: Dummy003/IK Chain006
+        weight: 1
+      - path: Dummy003/IK Chain007
+        weight: 1
+      - path: Dummy004
+        weight: 1
+      - path: Dummy004/Bone013
+        weight: 1
+      - path: Dummy004/Bone013/Bone014
+        weight: 1
+      - path: Dummy004/Bone013/Bone014/Bone015
+        weight: 1
+      - path: Dummy004/Bone013/Bone014/Bone015/Bone016
+        weight: 1
+      - path: Dummy004/Bone013/Bone014/Bone015/legRB1
+        weight: 1
+      - path: Dummy004/Bone013/Bone014/Object012
+        weight: 1
+      - path: Dummy004/Bone013/Cylinder010
+        weight: 1
+      - path: Dummy004/Cylinder015
+        weight: 1
+      - path: Dummy004/IK Chain008
+        weight: 1
+      - path: Dummy004/IK Chain009
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: Object009/Object008
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cargoLanding
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CargoShip
+        weight: 1
+      - path: Cylinder003
+        weight: 1
+      - path: Cylinder007
+        weight: 1
+      - path: Cylinder011
+        weight: 1
+      - path: Cylinder013
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Bone001
+        weight: 1
+      - path: Dummy001/Bone001/Bone002
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003/legLF1
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Object004
+        weight: 1
+      - path: Dummy001/Bone001/Cylinder006
+        weight: 1
+      - path: Dummy001/Cylinder005
+        weight: 1
+      - path: Dummy001/IK Chain001
+        weight: 1
+      - path: Dummy001/IK Chain002
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Dummy002/Bone006
+        weight: 1
+      - path: Dummy002/Bone006/Bone007
+        weight: 1
+      - path: Dummy002/Bone006/Bone007/Bone005
+        weight: 1
+      - path: Dummy002/Bone006/Bone007/Bone005/Bone008
+        weight: 1
+      - path: Dummy002/Bone006/Bone007/Bone005/legLB1
+        weight: 1
+      - path: Dummy002/Bone006/Bone007/Object010
+        weight: 1
+      - path: Dummy002/Bone006/Cylinder009
+        weight: 1
+      - path: Dummy002/Cylinder008
+        weight: 1
+      - path: Dummy002/IK Chain004
+        weight: 1
+      - path: Dummy002/IK Chain005
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: Dummy003/Bone009
+        weight: 1
+      - path: Dummy003/Bone009/Bone010
+        weight: 1
+      - path: Dummy003/Bone009/Bone010/Bone011
+        weight: 1
+      - path: Dummy003/Bone009/Bone010/Bone011/Bone012
+        weight: 1
+      - path: Dummy003/Bone009/Bone010/Bone011/legRF1
+        weight: 1
+      - path: Dummy003/Bone009/Bone010/Object014
+        weight: 1
+      - path: Dummy003/Bone009/Cylinder012
+        weight: 1
+      - path: Dummy003/Cylinder014
+        weight: 1
+      - path: Dummy003/IK Chain006
+        weight: 1
+      - path: Dummy003/IK Chain007
+        weight: 1
+      - path: Dummy004
+        weight: 1
+      - path: Dummy004/Bone013
+        weight: 1
+      - path: Dummy004/Bone013/Bone014
+        weight: 1
+      - path: Dummy004/Bone013/Bone014/Bone015
+        weight: 1
+      - path: Dummy004/Bone013/Bone014/Bone015/Bone016
+        weight: 1
+      - path: Dummy004/Bone013/Bone014/Bone015/legRB1
+        weight: 1
+      - path: Dummy004/Bone013/Bone014/Object012
+        weight: 1
+      - path: Dummy004/Bone013/Cylinder010
+        weight: 1
+      - path: Dummy004/Cylinder015
+        weight: 1
+      - path: Dummy004/IK Chain008
+        weight: 1
+      - path: Dummy004/IK Chain009
+        weight: 1
+      - path: glass
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: Object009/Object008
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

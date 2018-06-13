@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: 78d7bd8fdfc9d554390150377f90eb5e
+timeCreated: 1434885240
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Cylinder001
+    100004: Cylinder002
+    100006: Cylinder004
+    100008: Cylinder007
+    100010: Cylinder008
+    100012: Cylinder009
+    100014: Cylinder010
+    100016: Cylinder011
+    100018: interior
+    100020: Line001
+    100022: //RootNode
+    100024: stool
+    100026: doorR
+    100028: doorR001
+    100030: marauderExtrLow
+    100032: interiorHigh
+    100034: interiorHigh_MeshPart0
+    100036: interiorHigh_MeshPart1
+    100038: marauderHigh
+    100040: marauderHigh_MeshPart0
+    100042: marauderHigh_MeshPart1
+    100044: doorL
+    100046: sitInCarPosition
+    100048: sitInChairPosition
+    400000: Box001
+    400002: Cylinder001
+    400004: Cylinder002
+    400006: Cylinder004
+    400008: Cylinder007
+    400010: Cylinder008
+    400012: Cylinder009
+    400014: Cylinder010
+    400016: Cylinder011
+    400018: interior
+    400020: Line001
+    400022: //RootNode
+    400024: stool
+    400026: doorR
+    400028: doorR001
+    400030: marauderExtrLow
+    400032: interiorHigh
+    400034: interiorHigh_MeshPart0
+    400036: interiorHigh_MeshPart1
+    400038: marauderHigh
+    400040: marauderHigh_MeshPart0
+    400042: marauderHigh_MeshPart1
+    400044: doorL
+    400046: sitInCarPosition
+    400048: sitInChairPosition
+    2300000: Box001
+    2300002: Cylinder001
+    2300004: Cylinder002
+    2300006: Cylinder004
+    2300008: Cylinder007
+    2300010: Cylinder008
+    2300012: Cylinder009
+    2300014: Cylinder010
+    2300016: Cylinder011
+    2300018: interior
+    2300020: Line001
+    2300022: stool
+    2300024: doorR
+    2300026: doorR001
+    2300028: marauderExtrLow
+    2300030: interiorHigh_MeshPart0
+    2300032: interiorHigh_MeshPart1
+    2300034: marauderHigh_MeshPart0
+    2300036: marauderHigh_MeshPart1
+    2300038: doorL
+    3300000: Box001
+    3300002: Cylinder001
+    3300004: Cylinder002
+    3300006: Cylinder004
+    3300008: Cylinder007
+    3300010: Cylinder008
+    3300012: Cylinder009
+    3300014: Cylinder010
+    3300016: Cylinder011
+    3300018: interior
+    3300020: Line001
+    3300022: stool
+    3300024: doorR
+    3300026: doorR001
+    3300028: marauderExtrLow
+    3300030: interiorHigh_MeshPart0
+    3300032: interiorHigh_MeshPart1
+    3300034: marauderHigh_MeshPart0
+    3300036: marauderHigh_MeshPart1
+    3300038: doorL
+    4300000: Box001
+    4300002: Cylinder001
+    4300004: Cylinder002
+    4300006: Cylinder004
+    4300008: Line001
+    4300010: stool
+    4300012: Cylinder007
+    4300014: interior
+    4300016: Cylinder008
+    4300018: Cylinder009
+    4300020: Cylinder010
+    4300022: Cylinder011
+    4300024: doorR
+    4300026: marauderExtrLow
+    4300028: doorR001
+    4300030: marauderHigh_MeshPart0
+    4300032: marauderHigh_MeshPart1
+    4300034: interiorHigh_MeshPart0
+    4300036: interiorHigh_MeshPart1
+    4300038: doorL
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder004
+        weight: 1
+      - path: Cylinder007
+        weight: 1
+      - path: Cylinder009
+        weight: 1
+      - path: Cylinder010
+        weight: 1
+      - path: Cylinder011
+        weight: 1
+      - path: doorL
+        weight: 1
+      - path: doorR
+        weight: 1
+      - path: marauderExtrLow
+        weight: 1
+      - path: sitInCarPosition
+        weight: 1
+      - path: sitInChairPosition
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.4
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

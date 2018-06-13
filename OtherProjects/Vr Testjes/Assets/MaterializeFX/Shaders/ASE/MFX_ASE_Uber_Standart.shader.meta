@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c1fb3def9a81d5046885ce3d4113cb14
+timeCreated: 1523786859
+licenseType: Store
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _EdgeMap: {fileID: 2800000, guid: 7a632f967e8ad42f5bd275898151ab6a, type: 3}
+  - _DissolveMap1: {fileID: 2800000, guid: 357928dd8c8088440b4662373bd09d7a, type: 3}
+  - _EmissionMap2: {fileID: 2800000, guid: 72e8a18a778af834a815921e55b0b5e7, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

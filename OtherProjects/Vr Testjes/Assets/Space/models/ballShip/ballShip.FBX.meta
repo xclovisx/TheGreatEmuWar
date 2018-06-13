@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 3c205bcbab77ac740b8151ee11fe1099
+timeCreated: 1479655434
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder002
+    100004: Cylinder003
+    100006: Cylinder01
+    100008: Line001
+    100010: Line002
+    100012: Object008
+    100014: control001
+    100016: donutShip
+    100018: door
+    100020: monitor
+    100022: backLeg
+    100024: frontLeg
+    400000: //RootNode
+    400002: Cylinder002
+    400004: Cylinder003
+    400006: Cylinder01
+    400008: Line001
+    400010: Line002
+    400012: Object008
+    400014: control001
+    400016: donutShip
+    400018: door
+    400020: monitor
+    400022: backLeg
+    400024: frontLeg
+    2300000: Cylinder002
+    2300002: Cylinder003
+    2300004: Cylinder01
+    2300006: Object008
+    2300008: control001
+    2300010: donutShip
+    2300012: door
+    2300014: monitor
+    2300016: backLeg
+    2300018: frontLeg
+    3300000: Cylinder002
+    3300002: Cylinder003
+    3300004: Cylinder01
+    3300006: Object008
+    3300008: control001
+    3300010: donutShip
+    3300012: door
+    3300014: monitor
+    3300016: backLeg
+    3300018: frontLeg
+    4300000: Cylinder01
+    4300002: Cylinder002
+    4300004: Cylinder003
+    4300006: Object008
+    4300008: donutShip
+    4300010: door
+    4300012: monitor
+    4300014: control001
+    4300016: frontLeg
+    4300018: backLeg
+    7400000: donutLanding
+    7400002: donutIdle
+    7400004: donutLiftOf
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: donutLanding
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: backLeg
+        weight: 1
+      - path: control001
+        weight: 1
+      - path: donutShip
+        weight: 1
+      - path: door
+        weight: 1
+      - path: frontLeg
+        weight: 1
+      - path: monitor
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: donutIdle
+      takeName: Take 001
+      firstFrame: 65
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: backLeg
+        weight: 1
+      - path: control001
+        weight: 1
+      - path: donutShip
+        weight: 1
+      - path: door
+        weight: 1
+      - path: frontLeg
+        weight: 1
+      - path: monitor
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: donutLiftOf
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: backLeg
+        weight: 1
+      - path: control001
+        weight: 1
+      - path: donutShip
+        weight: 1
+      - path: door
+        weight: 1
+      - path: frontLeg
+        weight: 1
+      - path: monitor
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.6
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
