@@ -9,7 +9,7 @@ public class BulletMovement : MonoBehaviour {
 
     void Start () {
         m_Rigidbody = GetComponent<Rigidbody>();
-        m_Speed = 10.0f;
+        m_Speed = 50.0f;
         m_Rigidbody.velocity = transform.up * m_Speed;
     }
 	

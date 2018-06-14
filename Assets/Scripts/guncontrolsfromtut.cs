@@ -18,9 +18,16 @@ public class guncontrolsfromtut : MonoBehaviour
 
     public float Bullet_Up_Force;
 
+    //////////////////////////////////
+    public AudioClip shootSound;
+
+    private AudioSource source;
+    /////////////////////////////////
+
     void Start()
     {
         trackedObj = GetComponent<SteamVR_TrackedObject>();
+        source = GetComponent<AudioSource>();
 
     }
 
@@ -29,7 +36,7 @@ public class guncontrolsfromtut : MonoBehaviour
         if (controller.GetPressDown(triggerButton) && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
-            Debug.Log("Pressed");
+            //Debug.Log("Pressed");
             //The Bullet instantiation happens here.
             GameObject Temporary_Bullet_Handler;
             Temporary_Bullet_Handler = Instantiate(Bullet, Bullet_Emitter.transform.position + new Vector3(0.0f, 0.0f, 0.0f), Bullet_Emitter.transform.rotation) as GameObject;
@@ -40,6 +47,9 @@ public class guncontrolsfromtut : MonoBehaviour
 
             Rigidbody Temporary_RigidBody;
             Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody>();
+
+            
+            source.PlayOneShot(shootSound, 1);
 
             //Temporary_RigidBody.AddForce(transform.forward * Bullet_Up_Force);
 

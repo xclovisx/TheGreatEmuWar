@@ -22,7 +22,7 @@ public class counter : MonoBehaviour {
       
         if (hpCounter >= 0)
         {
-            kill.text = "K " + killCounter.ToString();
+            kill.text = "P. " + killCounter.ToString();
             hp.text = "HP " + hpCounter.ToString();
             transform.localScale = new Vector3(1, hpCounter / 100, 1);
         }
