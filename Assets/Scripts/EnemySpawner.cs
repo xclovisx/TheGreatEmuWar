@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//  script gebruikt bij  {Spawners/EnemySpawner} script  bij EnemySpawner
 public class EnemySpawner : MonoBehaviour
 {
     [Header("Prefab")]

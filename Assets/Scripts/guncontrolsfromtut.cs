@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+//  script gebruikt bij  {[CameraRig]/Controller (left)} script  bij Controller (left)
+//  script gebruikt bij  {[CameraRig]/Controller (right)} script  bij Controller (right)
 
 public class guncontrolsfromtut : MonoBehaviour
 {

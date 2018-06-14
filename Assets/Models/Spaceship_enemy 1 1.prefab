@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 33091034313478662}
   - component: {fileID: 114022531970820102}
   m_Layer: 0
-  m_Name: Spaceship_enemy soundnt
+  m_Name: Spaceship_enemy 1 1
   m_TagString: Meteor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

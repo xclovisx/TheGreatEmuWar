@@ -12,7 +12,17 @@ public class BulletMovement : MonoBehaviour {
         m_Speed = 50.0f;
         m_Rigidbody.velocity = transform.up * m_Speed;
     }
-	
-	void Update () {
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Bullet"|| other.tag == "EBullet" || other.tag == "Player")
+        {
+
+            Destroy(gameObject);
+        }
+        else { Destroy(gameObject, 5); }
+       
+
     }
+    
 }

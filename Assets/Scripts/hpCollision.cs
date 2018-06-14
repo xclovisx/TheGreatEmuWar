@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//  script gebruikt bij  {Environment/Room/platform_spaceship4/spaceship_2} script  bij spaceship_2 
 public class hpCollision : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
@@ -13,7 +13,7 @@ public class hpCollision : MonoBehaviour {
         }
        if (other.tag == "EBullet")
         {
-            if (counter.hpCounter > 0) { counter.hpCounter -= 1; }
+            if (counter.hpCounter > 0) { counter.hpCounter -= 1;  }
 
         }
 

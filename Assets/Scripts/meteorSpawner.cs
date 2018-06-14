@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//  script gebruikt bij  {Spawners/Meteor spawner} script  bij Meteor spawner
 public class meteorSpawner : MonoBehaviour
 {
     [Header("Prefab")]
@@ -34,7 +34,7 @@ public class meteorSpawner : MonoBehaviour
 
     void Spawn()
     {
-        
+
         if (counter.spawn) //will check if true
         {
             Vector3 SpawnPosition = new Vector3(Random.Range(xMin, xMax), Random.Range(yMin, yMax), Random.Range(zMin, zMax));

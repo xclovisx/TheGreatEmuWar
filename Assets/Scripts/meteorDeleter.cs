@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//  script gebruikt bij  {Assets>Models>Astroide>Astroïde_Model 2} script  bij Astroïde_Model 2 = een prefab
 
 public class meteorDeleter : MonoBehaviour
 {
