@@ -10,13 +10,7 @@ public class EnemyGun : MonoBehaviour
     public float Bullet_Up_Force;
 
     private float time = 0.0f;
-    public float interpolationPeriod = 0.5f;
-
-    //////////////////////////////////
-    /*public AudioClip shootSound;
-
-    private AudioSource source;*/
-    /////////////////////////////////
+    public float interpolationPeriod = 5.0f;
 
     void Start()
     {
@@ -29,7 +23,6 @@ public class EnemyGun : MonoBehaviour
         {
             time = 0.0f;
 
-            /*source.PlayOneShot(shootSound, 1);*/
             // execute block of code here
             //The Bullet instantiation happens here.
             GameObject Temporary_Bullet_Handler;
