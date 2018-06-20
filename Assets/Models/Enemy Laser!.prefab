@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 212562988949832940}
   - component: {fileID: 54561690111753606}
   - component: {fileID: 114767902517508322}
-  - component: {fileID: 114872347174685460}
   - component: {fileID: 136482385818390514}
   m_Layer: 0
   m_Name: Enemy Laser!
@@ -72,17 +71,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Rigidbody: {fileID: 54561690111753606}
   m_Speed: 15
---- !u!114 &114872347174685460
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1156046000164222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33b871d6862aa1d4a8e3a1b6b6fe4c3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!136 &136482385818390514
 CapsuleCollider:
   m_ObjectHideFlags: 1

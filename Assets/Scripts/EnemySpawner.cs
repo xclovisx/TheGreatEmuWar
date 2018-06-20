@@ -34,7 +34,7 @@ public class EnemySpawner : MonoBehaviour
 
     void Spawn()
     {
-        print(counter.spawn);
+        //print(counter.spawn);
         if (counter.spawn) //will check if true
         {
             Vector3 SpawnPosition = new Vector3(Random.Range(xMin, xMax), Random.Range(yMin, yMax), Random.Range(zMin, zMax));
