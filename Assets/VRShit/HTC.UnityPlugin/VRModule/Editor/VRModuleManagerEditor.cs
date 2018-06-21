@@ -12,6 +12,9 @@ namespace HTC.UnityPlugin.VRModuleManagement
 {
     // This script manage define symbols used by VIU
     public class VRModuleManagerEditor : UnityEditor.AssetModificationProcessor
+#if UNITY_2017_1_OR_NEWER
+        , UnityEditor.Build.IActiveBuildTargetChanged
+#endif
     {
         private class SymbolRequirement
         {
@@ -38,6 +41,14 @@ namespace HTC.UnityPlugin.VRModuleManagement
             public ReqMethodInfo[] reqMethods = null;
 
             private static Dictionary<string, Type> s_foundTypes;
+
+            public static void ResetFoundTypes()
+            {
+                if (s_foundTypes != null)
+                {
+                    s_foundTypes.Clear();
+                }
+            }
 
             public void FindRequiredTypesInAssembly(Assembly assembly)
             {
@@ -242,6 +253,30 @@ namespace HTC.UnityPlugin.VRModuleManagement
                 reqFileNames = new string[] { "WaveVR.cs" },
             });
 
+            s_symbolReqList.Add(new SymbolRequirement()
+            {
+                symbol = "VIU_WAVEVR_2_0_32_OR_NEWER",
+                reqMethods = new SymbolRequirement.ReqMethodInfo[]
+                {
+                    new SymbolRequirement.ReqMethodInfo()
+                    {
+                        typeName = "wvr.Interop",
+                        name = "WVR_GetInputDeviceState",
+                        argTypeNames = new string[]
+                        {
+                            "wvr.WVR_DeviceType",
+                            "System.UInt32",
+                            "System.UInt32&",
+                            "System.UInt32&",
+                            "wvr.WVR_AnalogState_t[]",
+                            "System.UInt32",
+                        },
+                        bindingAttr = BindingFlags.Public | BindingFlags.Static,
+                    }
+                },
+                reqFileNames = new string[] { "wvr.cs" },
+            });
+
             // Obsolete symbol, will be removed in all condition
             s_symbolReqList.Add(new SymbolRequirement()
             {
@@ -255,10 +290,23 @@ namespace HTC.UnityPlugin.VRModuleManagement
                 symbol = "VIU_BINDING_INTERFACE_SWITCH",
                 reqFileNames = new string[] { "" },
             });
+
+#if !UNITY_2017_1_OR_NEWER
+            EditorUserBuildSettings.activeBuildTargetChanged += UpdateScriptingDefineSymbols;
+#endif
         }
 
+#if UNITY_2017_1_OR_NEWER
+        public int callbackOrder { get { return 0; } }
+
+        public void OnActiveBuildTargetChanged(BuildTarget previousTarget, BuildTarget newTarget)
+        {
+            UpdateScriptingDefineSymbols();
+        }
+#endif
+
         [DidReloadScripts]
-        private static void UpdateScriptingDefineSymbols()
+        public static void UpdateScriptingDefineSymbols()
         {
             foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
             {
@@ -306,9 +354,12 @@ namespace HTC.UnityPlugin.VRModuleManagement
             {
                 SetDefineSymbols(defineSymbols);
             }
+
+            SymbolRequirement.ResetFoundTypes();
         }
 
         private static bool s_delayCallRemoveRegistered;
+
         // This is called when ever an asset deleted
         // If the deleted asset include sdk files, then remove all symbols defined by VIU
         public static AssetDeleteResult OnWillDeleteAsset(string assetPath, RemoveAssetOptions option)

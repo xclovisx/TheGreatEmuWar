@@ -316,7 +316,7 @@ public class HxVolumetricShadersUsed : ScriptableObject
             string[] fvssp2 = new string[vc + 1];
             ShaderVariantList.CopyTo(fvssp2);
 
-            ShaderVariantCollection.ShaderVariant varientSP = new ShaderVariantCollection.ShaderVariant(source, PassType.Normal, fvssp2); //Hier zit een error....
+            ShaderVariantCollection.ShaderVariant varientSP = new ShaderVariantCollection.ShaderVariant(source, PassType.Normal, fvssp2); //Hier zit een error maar ik heb geen idee wat dus de gene die dit heeft geschreven check het!
             if (!collection.Contains(varientSP)) { collection.Add(varientSP); }
 
             Material m2 = new Material(source);

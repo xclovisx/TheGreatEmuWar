@@ -25,6 +25,9 @@ public class meteorSpawner : MonoBehaviour
     [Header("Speed")]
     public int speed;
 
+    [Header("Sound")]
+    public AudioClip ExplosionSound;
+
     private bool stopSpawn;
 
     void Start()
@@ -43,8 +46,9 @@ public class meteorSpawner : MonoBehaviour
             meteorMovement mv = meteor.GetComponent<meteorMovement>();
             mv.target = GameObject.FindWithTag("Player").transform;
             mv.speed = speed;
-            
 
+            meteorDeleter md = meteor.GetComponent<meteorDeleter>();
+            md.explosionSound = ExplosionSound;
         }
     }
 
