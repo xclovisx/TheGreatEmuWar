@@ -10,6 +10,8 @@ TagManager:
   - EBullet
   - AI Shield
   - hp
+  - AI Lock
+  - Lasernt
   layers:
   - Default
   - TransparentFX
