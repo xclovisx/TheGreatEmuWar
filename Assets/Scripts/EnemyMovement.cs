@@ -6,21 +6,17 @@ public class EnemyMovement : MonoBehaviour {
 
     public Transform target;
     public float speed;
-    private int stop = 0;
 
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
     void Update()
     {
-        if (stop == 0)
-        {
-            float step = speed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(transform.position, target.position, step);
-        }
-    }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "AI Shield")
-        {
-            stop += 1;
-        }
+        float step = speed * Time.deltaTime;
+        transform.position = Vector3.MoveTowards(transform.position, target.position, step);
     }
 }

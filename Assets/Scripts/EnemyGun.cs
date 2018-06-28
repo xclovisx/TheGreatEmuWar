@@ -10,7 +10,6 @@ public class EnemyGun : MonoBehaviour
     public float Bullet_Up_Force;
 
     private float time = 0.0f;
-    private float timeBegin = 0.0f;
     public float interpolationPeriod = 5.0f;
 
     void Start()
@@ -18,33 +17,28 @@ public class EnemyGun : MonoBehaviour
     }
     void Update()
     {
-        timeBegin += Time.deltaTime;
+        time += Time.deltaTime;
 
-        if (timeBegin >= 10.0f)
+        if (time >= interpolationPeriod)
         {
-            time += Time.deltaTime;
+            time = 0.0f;
 
-            if (time >= interpolationPeriod)
-            {
-                time = 0.0f;
+            // execute block of code here
+            //The Bullet instantiation happens here.
+            GameObject Temporary_Bullet_Handler;
+            Temporary_Bullet_Handler = Instantiate(Bullet, Bullet_Emitter.transform.position + new Vector3(0.0f, 0.0f, 0.0f), Bullet_Emitter.transform.rotation) as GameObject;
 
-                // execute block of code here
-                //The Bullet instantiation happens here.
-                GameObject Temporary_Bullet_Handler;
-                Temporary_Bullet_Handler = Instantiate(Bullet, Bullet_Emitter.transform.position + new Vector3(0.0f, 0.0f, 0.0f), Bullet_Emitter.transform.rotation) as GameObject;
+            Temporary_Bullet_Handler.transform.Rotate(Vector3.forward * 100);
 
-                Temporary_Bullet_Handler.transform.Rotate(Vector3.forward * 100);
+            Temporary_Bullet_Handler.transform.Rotate(Vector3.right * 90);
+            Temporary_Bullet_Handler.transform.Rotate(Vector3.up * -10);
 
-                Temporary_Bullet_Handler.transform.Rotate(Vector3.right * 90);
-                Temporary_Bullet_Handler.transform.Rotate(Vector3.up * -10);
+            Rigidbody Temporary_RigidBody;
+            Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody>();
 
-                Rigidbody Temporary_RigidBody;
-                Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody>();
+            Temporary_RigidBody.AddForce(transform.up * Bullet_Up_Force);
 
-                Temporary_RigidBody.AddForce(transform.up * Bullet_Up_Force);
-
-                Destroy(Temporary_Bullet_Handler, 5.0f);
-            }
+            Destroy(Temporary_Bullet_Handler, 5.0f);
         }
     }
 }

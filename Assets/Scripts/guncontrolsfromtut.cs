@@ -50,6 +50,7 @@ public class guncontrolsfromtut : MonoBehaviour
             Rigidbody Temporary_RigidBody;
             Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody>();
 
+            
             source.PlayOneShot(shootSound, 1);
 
             //Temporary_RigidBody.AddForce(transform.forward * Bullet_Up_Force);

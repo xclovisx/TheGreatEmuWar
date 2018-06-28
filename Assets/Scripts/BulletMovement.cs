@@ -15,7 +15,7 @@ public class BulletMovement : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Bullet"|| other.tag == "EBullet" || other.tag == "Lasernt")
+        if (other.tag == "Bullet"|| other.tag == "EBullet"/* || other.tag == "Player"*/)
         {
 
             Destroy(gameObject);
