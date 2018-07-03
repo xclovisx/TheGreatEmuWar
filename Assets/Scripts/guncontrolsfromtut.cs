@@ -28,7 +28,6 @@ public class guncontrolsfromtut : MonoBehaviour
 
     void Start()
     {
-   
         trackedObj = GetComponent<SteamVR_TrackedObject>();
         source = GetComponent<AudioSource>();
 
@@ -36,7 +35,7 @@ public class guncontrolsfromtut : MonoBehaviour
 
     void Update()
     {
-        if (controller.GetPressDown(triggerButton) && Time.time > nextFire);
+        if (controller.GetPressDown(triggerButton) && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
             //Debug.Log("Pressed");
