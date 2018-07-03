@@ -28,6 +28,7 @@ public class guncontrolsfromtut : MonoBehaviour
 
     void Start()
     {
+   
         trackedObj = GetComponent<SteamVR_TrackedObject>();
         source = GetComponent<AudioSource>();
 
@@ -35,7 +36,7 @@ public class guncontrolsfromtut : MonoBehaviour
 
     void Update()
     {
-        if (controller.GetPressDown(triggerButton) && Time.time > nextFire)
+        if (controller.GetPressDown(triggerButton) && Time.time > nextFire);
         {
             nextFire = Time.time + fireRate;
             //Debug.Log("Pressed");
@@ -50,7 +51,6 @@ public class guncontrolsfromtut : MonoBehaviour
             Rigidbody Temporary_RigidBody;
             Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody>();
 
-            
             source.PlayOneShot(shootSound, 1);
 
             //Temporary_RigidBody.AddForce(transform.forward * Bullet_Up_Force);

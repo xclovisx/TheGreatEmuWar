@@ -41,11 +41,11 @@ public class EnemySpawner : MonoBehaviour
             GameObject Enemy = Instantiate(EnemyPrefab, SpawnPosition, Quaternion.identity);
 
             EnemyMovement em = Enemy.GetComponent<EnemyMovement>();
-            em.target = GameObject.FindWithTag("Player").transform;
+            em.target = GameObject.FindWithTag("AI Lock").transform;
             em.speed = speed;
 
             GoTo gt = Enemy.GetComponent<GoTo>();
-            gt.target = GameObject.FindWithTag("Player").transform;
+            gt.target = GameObject.FindWithTag("AI Lock").transform;
         }
     }
 

@@ -26,22 +26,34 @@ ShaderVariantCollection:
         passType: 0
       - keywords: SHADOWS_OFF UNITY_SINGLE_PASS_STEREO
         passType: 0
-<<<<<<< HEAD
---- !u!21 &21374025824837372
-=======
---- !u!21 &21085419725373888
->>>>>>> parent of 94de925... Laser fix
+--- !u!21 &21005023542122626
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-<<<<<<< HEAD
   m_Shader: {fileID: 4800000, guid: e018c43c94e977a4391a157071caa9d8, type: 3}
-=======
-  m_Shader: {fileID: 4800000, guid: 7c8ef85e76c05f341a66461ff8df1792, type: 3}
->>>>>>> parent of 94de925... Laser fix
+  m_ShaderKeywords: SHADOWS_OFF UNITY_SINGLE_PASS_STEREO
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats: []
+    m_Colors: []
+--- !u!21 &21052916711088544
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Shader: {fileID: 4800000, guid: e018c43c94e977a4391a157071caa9d8, type: 3}
   m_ShaderKeywords: SHADOWS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -54,11 +66,7 @@ Material:
     m_TexEnvs: []
     m_Floats: []
     m_Colors: []
-<<<<<<< HEAD
---- !u!21 &21552096336966402
-=======
---- !u!21 &21165861295357204
->>>>>>> parent of 94de925... Laser fix
+--- !u!21 &21254521059905016
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -78,11 +86,7 @@ Material:
     m_TexEnvs: []
     m_Floats: []
     m_Colors: []
-<<<<<<< HEAD
---- !u!21 &21760667704743278
-=======
---- !u!21 &21406682333225196
->>>>>>> parent of 94de925... Laser fix
+--- !u!21 &21320605358418428
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -90,11 +94,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Shader: {fileID: 4800000, guid: c1d9a54d81528704491362fc61968e7e, type: 3}
-<<<<<<< HEAD
-  m_ShaderKeywords: SHADOWS_OFF
-=======
   m_ShaderKeywords: SHADOWS_OFF UNITY_SINGLE_PASS_STEREO
->>>>>>> parent of 94de925... Laser fix
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -106,47 +106,15 @@ Material:
     m_TexEnvs: []
     m_Floats: []
     m_Colors: []
-<<<<<<< HEAD
---- !u!21 &21886440564406612
-=======
---- !u!21 &21604231445573874
->>>>>>> parent of 94de925... Laser fix
+--- !u!21 &21720872028671884
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-<<<<<<< HEAD
   m_Shader: {fileID: 4800000, guid: 7c8ef85e76c05f341a66461ff8df1792, type: 3}
-=======
-  m_Shader: {fileID: 4800000, guid: e018c43c94e977a4391a157071caa9d8, type: 3}
->>>>>>> parent of 94de925... Laser fix
   m_ShaderKeywords: SHADOWS_OFF
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs: []
-    m_Floats: []
-    m_Colors: []
-<<<<<<< HEAD
---- !u!21 &21909036772896234
-=======
---- !u!21 &21913351247004540
->>>>>>> parent of 94de925... Laser fix
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_Shader: {fileID: 4800000, guid: e018c43c94e977a4391a157071caa9d8, type: 3}
-  m_ShaderKeywords: SHADOWS_OFF UNITY_SINGLE_PASS_STEREO
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0

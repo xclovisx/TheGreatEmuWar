@@ -10,8 +10,7 @@ public class counter : MonoBehaviour {
     public static bool spawn;
     public Text kill;
     public Text hp;
-  
-  
+
     void Start () {
         spawn = true;
         killCounter = 0;
@@ -23,15 +22,13 @@ public class counter : MonoBehaviour {
     {
         if (hpCounter >= 0)
         {
-            kill.text =  killCounter.ToString();
-            hp.text =  hpCounter.ToString();
-           
+            kill.text = "P. " + killCounter.ToString();
+            hp.text = "HP " + hpCounter.ToString();
             transform.localScale = new Vector3(1, hpCounter / 100, 1);
         }
         if (hpCounter <= 0) { spawn = false; }
-       
 
-
+      
     }   
    
 }   
