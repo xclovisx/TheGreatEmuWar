@@ -30,7 +30,7 @@ public class counter : MonoBehaviour {
         if (hpCounter <= 0)
         {
             spawn = false;
-            SceneManager.LoadScene(GameOver);
+            //SceneManager.LoadScene(GameOver);
         }
     }   
 }   
