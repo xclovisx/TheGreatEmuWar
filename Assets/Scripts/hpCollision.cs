@@ -6,7 +6,7 @@ public class hpCollision : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Meteor")
+        if (other.tag == "Meteor" || other.tag == "lasernt")
         {
             if (counter.hpCounter > 0) { counter.hpCounter -= 4;  }
 

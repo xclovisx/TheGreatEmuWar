@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.005901386, g: 0.06415494, b: 0.2320435, a: 1}
+  m_IndirectSpecularColor: {r: 0.00015046017, g: 0.0072230315, b: 0.050266895, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1376,6 +1376,7 @@ GameObject:
   - component: {fileID: 1825716828}
   - component: {fileID: 1825716827}
   - component: {fileID: 1825716826}
+  - component: {fileID: 1825716829}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -1498,6 +1499,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1825716824}
+--- !u!65 &1825716829
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825716824}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2000, y: 1000, z: 100}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1849904676
 GameObject:
   m_ObjectHideFlags: 0

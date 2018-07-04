@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 //  script gebruikt bij  {[CameraRig]/Controller (right)/Gun/Canvas-health/RED/GREEN} script  bij GREEN 
 public class counter : MonoBehaviour {
 
@@ -26,9 +27,10 @@ public class counter : MonoBehaviour {
             hp.text =  hpCounter.ToString();
             transform.localScale = new Vector3(1, hpCounter / 100, 1);
         }
-        if (hpCounter <= 0) { spawn = false; }
-
-      
+        if (hpCounter <= 0)
+        {
+            spawn = false;
+            SceneManager.LoadScene(GameOver);
+        }
     }   
-   
 }   

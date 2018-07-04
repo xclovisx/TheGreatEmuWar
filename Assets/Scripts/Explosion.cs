@@ -12,7 +12,7 @@ public class Explosion : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "AI Shield" || other.tag == "EBullet")
+        if (other.tag == "AI Shield" || other.tag == "EBullet" || other.tag == "lasernt")
         {
             //Er gebeurt hier niks want Als hij deze raakt gebeurt er niks...
         }

@@ -4,16 +4,27 @@ using System.Collections;
 public class GoTo : MonoBehaviour
 {
     public Transform target;
+    private int stop = 0;
 
 
     void Update()
     {
-        Vector3 relativePos = (target.position + new Vector3(0, 1.5f, 0)) - transform.position;
-        Quaternion rotation = Quaternion.LookRotation(relativePos);
+        if (stop == 0)
+        {
+            Vector3 relativePos = (target.position + new Vector3(0, 1.5f, 0)) - transform.position;
+            Quaternion rotation = Quaternion.LookRotation(relativePos);
 
-        Quaternion current = transform.localRotation;
+            Quaternion current = transform.localRotation;
 
-        transform.localRotation = Quaternion.Slerp(current, rotation, Time.deltaTime);
-        transform.Translate(0, 0, 3 * Time.deltaTime);
+            transform.localRotation = Quaternion.Slerp(current, rotation, Time.deltaTime);
+            transform.Translate(0, 0, 3 * Time.deltaTime);
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "AI Shield")
+        {
+            stop += 1;
+        }
     }
 }
