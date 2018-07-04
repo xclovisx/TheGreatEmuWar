@@ -23,7 +23,7 @@ public class counter : MonoBehaviour {
         if (hpCounter >= 0)
         {
             kill.text = "P. " + killCounter.ToString();
-            hp.text = "HP " + hpCounter.ToString();
+            hp.text =  hpCounter.ToString();
             transform.localScale = new Vector3(1, hpCounter / 100, 1);
         }
         if (hpCounter <= 0) { spawn = false; }
