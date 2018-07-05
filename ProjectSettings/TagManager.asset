@@ -12,6 +12,12 @@ TagManager:
   - hp
   - AI Lock
   - Lasernt
+  - Undefined
+  - Shield
+  - Play
+  - FxTemporaire
+  - Back
+  - Dropdown
   layers:
   - Default
   - TransparentFX

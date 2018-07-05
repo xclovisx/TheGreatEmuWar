@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4330458697723846}
   - component: {fileID: 212138666381885524}
   - component: {fileID: 54560468361738774}
-  - component: {fileID: 114206890896040350}
   - component: {fileID: 136811362274280878}
   - component: {fileID: 82054793127474506}
+  - component: {fileID: 114019256602164382}
   m_Layer: 0
   m_Name: Enemy Laser!
   m_TagString: EBullet
@@ -190,7 +190,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &114206890896040350
+--- !u!114 &114019256602164382
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1824046023423960}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f51d5db79beb2d479324f8052d4947e, type: 3}
+  m_Script: {fileID: 11500000, guid: 163d0599431c3b24297096609de8cc16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Rigidbody: {fileID: 54560468361738774}
