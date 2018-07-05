@@ -21,8 +21,5 @@ public class EBulletMovement : MonoBehaviour {
             Destroy(gameObject);
         }
         else { Destroy(gameObject, 5); }
-       
-
-    }
-    
+    } 
 }

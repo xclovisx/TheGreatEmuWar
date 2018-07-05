@@ -9,20 +9,17 @@ public class BulletMovement : MonoBehaviour {
 
     void Start () {
         m_Rigidbody = GetComponent<Rigidbody>();
-        m_Speed = 50.0f;
+        //m_Speed = 50.0f;
         m_Rigidbody.velocity = transform.up * m_Speed;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Bullet"|| other.tag == "EBullet" || other.tag == "Lasernt" /*|| other.tag == "Shield"*/)
+        if (other.tag == "Bullet"|| other.tag == "EBullet" || other.tag == "Lasernt")
         {
 
             Destroy(gameObject);
         }
         else { Destroy(gameObject, 5); }
-       
-
     }
-    
 }
