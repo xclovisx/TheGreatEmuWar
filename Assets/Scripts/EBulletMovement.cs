@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletMovement : MonoBehaviour {
+public class EBulletMovement : MonoBehaviour {
 
     public Rigidbody m_Rigidbody;
     public float m_Speed;
@@ -15,7 +15,7 @@ public class BulletMovement : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Bullet"|| other.tag == "EBullet" || other.tag == "Lasernt" /*|| other.tag == "Shield"*/)
+        if (other.tag == "Bullet"|| other.tag == "EBullet" || other.tag == "Lasernt" || other.tag == "Shield")
         {
 
             Destroy(gameObject);
