@@ -1,17 +1,20 @@
 fileFormatVersion: 2
-guid: 482b7979ca6702940b49970b1dab7518
+guid: 50529adfcfa5b6b4cbaef31967512068
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Mat.1
+    2100000: unnamed
     2300000: //RootNode
     3300000: //RootNode
-    4300000: astroid_03
+    4300000: Suzanne
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

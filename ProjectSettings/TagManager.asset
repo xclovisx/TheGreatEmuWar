@@ -3,21 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Meteor
-  - Bullet
-  - screenSpawn
-  - EBullet
-  - AI Shield
-  - hp
-  - AI Lock
-  - Lasernt
-  - Undefined
-  - Shield
-  - Play
-  - FxTemporaire
-  - Back
-  - Dropdown
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -27,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - VR
+  - PostProcessing
   - 
   - 
   - 

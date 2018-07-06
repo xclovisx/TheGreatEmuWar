@@ -1,5 +1,5 @@
 {
-    "name": "com.unity.postprocessing.Editor",
+    "name": "com.unity.postprocessing.Editor2",
     "references": [
         "com.unity.postprocessing.Runtime"
     ],
