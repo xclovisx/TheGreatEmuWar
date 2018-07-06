@@ -10,7 +10,7 @@ public class EnemyGun : MonoBehaviour
     public float Bullet_Up_Force;
 
     private float time = 0.0f;
-    private float timeBegin = 0.0f;
+    private float timeBegin = 10.0f;
     public float interpolationPeriod = 5.0f;
 
     void Start()

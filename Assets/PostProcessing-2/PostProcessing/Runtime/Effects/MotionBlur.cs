@@ -50,7 +50,7 @@ namespace UnityEngine.Rendering.PostProcessing
 
             if (m_ResetHistory)
             {
-                cmd.BlitFullscreenTriangle(source: context.source, destination: context.destination);
+                cmd.BlitFullscreenTriangle(context.source, context.destination);
                 m_ResetHistory = false;
                 return;
             }
