@@ -20,7 +20,6 @@ public class counter : MonoBehaviour {
         time = 0;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (hpCounter >= 0)
@@ -34,21 +33,12 @@ public class counter : MonoBehaviour {
             spawn = false;
             time += Time.deltaTime;
             if(time >= 5) { SceneLoader(2); }
-            
-                
-
-
         }
-
-
     }
 
 
     public void SceneLoader(int SceneIndex)
     {
         SceneManager.LoadScene(SceneIndex);
-
     }
-
-    
 }   

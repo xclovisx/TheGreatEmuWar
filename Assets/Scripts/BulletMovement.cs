@@ -17,7 +17,6 @@ public class BulletMovement : MonoBehaviour {
     {
         if (other.tag == "Bullet"|| other.tag == "EBullet" || other.tag == "Lasernt")
         {
-
             Destroy(gameObject);
         }
         else { Destroy(gameObject, 5); }

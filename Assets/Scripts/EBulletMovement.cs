@@ -17,7 +17,6 @@ public class EBulletMovement : MonoBehaviour {
     {
         if (other.tag == "Bullet"|| other.tag == "EBullet" || other.tag == "Lasernt" || other.tag == "Shield")
         {
-
             Destroy(gameObject);
         }
         else { Destroy(gameObject, 5); }
