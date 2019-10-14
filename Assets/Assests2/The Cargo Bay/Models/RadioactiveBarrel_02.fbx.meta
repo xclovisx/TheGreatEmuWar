@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 2ce6b35bde4ffed4ca2750696abfd34e
+timeCreated: 1490560990
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Cylinder.10_low.002
+    100004: Cylinder.10_low.003
+    100006: Cylinder.10_low.004
+    100008: Cylinder.10_low.005
+    100010: Cylinder.10_low.006
+    100012: //RootNode
+    100014: RadioactiveBarrel_02
+    100016: SciFi_Barrel_01
+    100018: SciFi_Barrel_02
+    100020: SciFi_Barrel_Mid
+    100022: SciFi_Barrel_Root
+    400000: Armature
+    400002: Cylinder.10_low.002
+    400004: Cylinder.10_low.003
+    400006: Cylinder.10_low.004
+    400008: Cylinder.10_low.005
+    400010: Cylinder.10_low.006
+    400012: //RootNode
+    400014: RadioactiveBarrel_02
+    400016: SciFi_Barrel_01
+    400018: SciFi_Barrel_02
+    400020: SciFi_Barrel_Mid
+    400022: SciFi_Barrel_Root
+    4300000: RadioactiveBarrel_02
+    4300002: Cylinder.10_low.006
+    4300004: Cylinder.10_low.002
+    4300006: Cylinder.10_low.004
+    4300008: Cylinder.10_low.005
+    4300010: Cylinder.10_low.003
+    7400000: Armature|Radioactive_Waste_Sloshing
+    9500000: //RootNode
+    13700000: Cylinder.10_low.002
+    13700002: Cylinder.10_low.003
+    13700004: Cylinder.10_low.004
+    13700006: Cylinder.10_low.005
+    13700008: Cylinder.10_low.006
+    13700010: RadioactiveBarrel_02
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Radioactive_Waste_Sloshing
+      takeName: Armature|Radioactive_Waste_Sloshing
+      firstFrame: 0
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/SciFi_Barrel_Root
+        weight: 1
+      - path: Armature/SciFi_Barrel_Root/SciFi_Barrel_Mid
+        weight: 1
+      - path: Armature/SciFi_Barrel_Root/SciFi_Barrel_Mid/SciFi_Barrel_01
+        weight: 1
+      - path: Armature/SciFi_Barrel_Root/SciFi_Barrel_Mid/SciFi_Barrel_02
+        weight: 1
+      - path: Cylinder.10_low.002
+        weight: 1
+      - path: Cylinder.10_low.003
+        weight: 1
+      - path: Cylinder.10_low.004
+        weight: 1
+      - path: Cylinder.10_low.005
+        weight: 1
+      - path: Cylinder.10_low.006
+        weight: 1
+      - path: RadioactiveBarrel_02
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
