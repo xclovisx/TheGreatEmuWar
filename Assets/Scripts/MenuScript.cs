@@ -10,33 +10,20 @@ public class MenuScript : MonoBehaviour {
 
    void Awake()
     {
-
         Play = GameObject.FindWithTag("Play");
-
-       
-
     }
   
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Play")
         {
-
           Play.SetActive(false);
             SceneLoader(1);
-
-
-
         }
-       
-      
     }
-
-
+    
     public void SceneLoader(int SceneIndex)
     {
         SceneManager.LoadScene(SceneIndex);
-
     }
 }

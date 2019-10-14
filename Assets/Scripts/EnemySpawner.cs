@@ -48,9 +48,4 @@ public class EnemySpawner : MonoBehaviour
             gt.target = GameObject.FindWithTag("AI Lock").transform;
         }
     }
-
-
-    void Update()
-    { }
-
 }

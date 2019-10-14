@@ -19,7 +19,6 @@ public class ShieldSpawner : MonoBehaviour
 
         else
         {
-            //Debug.Log("Pressed");
             //The Explosion instantiation happens here.
             GameObject Temporary_Explosion_Handler;
             Temporary_Explosion_Handler = Instantiate(Shield, Shield.transform.position + new Vector3(0.0f, 0.0f, 0.0f), Shield.transform.rotation) as GameObject;
@@ -32,8 +31,6 @@ public class ShieldSpawner : MonoBehaviour
             Temporary_RigidBody = Temporary_Explosion_Handler.GetComponent<Rigidbody>();
 
             Destroy(Temporary_Explosion_Handler, 10.0f);
-
-
         }
     }
 }

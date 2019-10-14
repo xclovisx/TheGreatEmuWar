@@ -11,11 +11,13 @@ public class counter : MonoBehaviour {
     public static bool spawn;
     public Text kill;
     public Text hp;
+    public float time;
 
     void Start () {
         spawn = true;
         killCounter = 0;
         hpCounter = 100;
+        time = 0;
     }
 
     // Update is called once per frame
@@ -30,7 +32,23 @@ public class counter : MonoBehaviour {
         if (hpCounter <= 0)
         {
             spawn = false;
-            //SceneManager.LoadScene(GameOver);
+            time += Time.deltaTime;
+            if(time >= 5) { SceneLoader(2); }
+            
+                
+
+
         }
-    }   
+
+
+    }
+
+
+    public void SceneLoader(int SceneIndex)
+    {
+        SceneManager.LoadScene(SceneIndex);
+
+    }
+
+    
 }   
